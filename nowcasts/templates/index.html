@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      {{ bokeh_css }}
+      {{ bokeh_js }}
+	<style>
+             {% include 'styles.css' %}
+        </style>
+    </head>
+    <body>
+    	<h1>UNCTAD Nowcasts</h1>
+      <p>UNCTAD nowcast revisions based on new data releases.</p>
+      {{ plot_div|indent(8) }}
+      {{ plot_script|indent(8) }}
+    </body>
+</html>

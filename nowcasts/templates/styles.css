@@ -1,0 +1,11 @@
+label {
+	font-weight: bold;
+}
+
+body {
+  	font-family: Helvetica, Arial, Sans-Serif;
+ 	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 1.3;
+}
