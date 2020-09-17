@@ -12,3 +12,11 @@ def get_full_var_name(catalog, var_name, var_to_name):
 	else:
 		return_name = catalog.loc[catalog.name == var_name, "code"].values[0]
 	return return_name
+
+def convert_variable_code(val, catalog):
+	if (catalog.code == val).sum():
+		return catalog.loc[catalog.code == val, "name"].values[0]
+	elif val == "impact_revisions":
+		return "*Impact of revisions"
+	else:
+		return val

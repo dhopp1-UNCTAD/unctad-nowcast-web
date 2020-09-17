@@ -30,7 +30,7 @@ def gen_plot(data, target, target_name, target_period, palette):
 	p = figure(
 			title=f"{target_name}: {target_period[:4]} Q{int(int(target_period[5:7])/3)} nowcast quarter-over-quarter growth",
 			x_axis_type="datetime", 
-			x_axis_label="Date forecast made",
+			x_axis_label="Date nowcast made",
 			y_axis_label="Percent",
 			plot_width=1200, 
 			plot_height=600
@@ -57,14 +57,14 @@ def gen_plot(data, target, target_name, target_period, palette):
 	tooltips = list(zip(
 			pd.Series(stack.columns[1:]), 
 			pd.Series(stack.columns[1:])
-			.apply(lambda x: "@" + x + "{0.00}%"))
+			.apply(lambda x: "@{" + x + "}{0.00}%"))
 	)
 	
 	p.add_tools(
         HoverTool(
             tooltips=[
                 ("Date", "@date_forecast_string"),
-                (f"Target period nowcast", "@value{0.00}%")
+                ("Target period nowcast", "@value{0.00}%")
             ],
             names=["forecast"],
             mode="mouse"
@@ -75,5 +75,11 @@ def gen_plot(data, target, target_name, target_period, palette):
             mode="mouse"
         )
 	)
+		
+	# text for display
+	pred_text = f"""
+<strong>Date of latest nowcast made:</strong> {str(line_data.date_forecast.values[-1])[:10]} <br>
+<strong>Latest nowcast:</strong> {round(line_data.value.values[-1], 2)}%
+	"""
 	
-	return p
+	return [p, pred_text]
