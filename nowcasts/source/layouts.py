@@ -1,21 +1,52 @@
 from bokeh.layouts import column, row, Spacer
-from bokeh.models.widgets import Tabs, Panel, Div
+from bokeh.models.widgets import Tabs, Panel, Div, DataTable, TableColumn
+from bokeh.plotting import ColumnDataSource
 
 def gen_layout(p, catalog, target_dropdown, target_period_dropdown, pred_text, commentary):
 	# tabs
 	plot_tab = Panel(child=row(p), title="Nowcasts")
 	
 	# metadata tab
-	metadata_text = """
-<body>
-<h4>Metadata</h4>
-<p>
-some text
-</p>
-"""
-	metadata = Div(text=metadata_text, width=600)
+	cat = catalog.loc[(catalog.x_world > 0) | (catalog.x_vol_world2 > 0) | (catalog.x_servs_world > 0),:].reset_index(drop=True)
+	# adding column for which model in
+	def which_in(one, two, three):
+		outstr = ""
+		if one:
+			outstr += "Total merchandise exports"
+		if two:
+			outstr += " | Exports of services, world"
+		if three:
+			outstr += " | Export volumes, world (UNCTAD)"
+		if outstr[0] == " ":
+			outstr = outstr[2:]
+		return outstr
+		
+	catalog["nowcasts"] = cat.apply(lambda x: which_in(x["x_world"], x["x_servs_world"], x["x_vol_world2"]), axis=1)
+	cat = catalog.loc[:,["Variable", "Frequency", "Units", "Source", "nowcasts"]].sort_values(by=["Variable"])
+	metadata_source = ColumnDataSource(dict(cat))
+	columns = [
+	    TableColumn(
+	        field="Variable",
+	        title="Variable"),
+	    TableColumn(
+	        field="Frequency",
+	        title="Frequency"),
+		TableColumn(
+	        field="Units",
+	        title="Units"),
+		TableColumn(
+	        field="Source",
+	        title="Source"),
+		TableColumn(
+	        field="nowcasts",
+	        title="Nowcasts in"),
+    ]
+	data_table = DataTable(
+	    source=metadata_source, columns=columns, width=1200, height=1200, row_height=25, autosize_mode="fit_columns"
+	)
+	
 	metadata_tab = Panel(
-		child=column(metadata), title="Metadata"
+		child=data_table, title="Metadata"
 	)
 	
 	# methodology tab
