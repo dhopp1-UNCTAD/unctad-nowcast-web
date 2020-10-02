@@ -78,8 +78,8 @@ def gen_plot(data, target, target_name, target_period, palette):
 		
 	# text for display
 	pred_text = f"""
-<strong>Date of latest nowcast made:</strong> {str(line_data.date_forecast.values[-1])[:10]} <br>
-<strong>Latest nowcast:</strong> {round(line_data.value.values[-1], 2)}%
+<p><strong>Date of latest nowcast made:</strong> {str(line_data.date_forecast.values[-1])[:10]}</p>
+<p><strong>Latest nowcast:</strong> {round(line_data.value.values[-1], 2)}%</p>
 	"""
 	
 	return [p, pred_text]

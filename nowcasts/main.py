@@ -11,6 +11,16 @@ import source.palette as palette
 import source.layouts as layouts
 import source.helper as helper
 
+# commentary
+commentary = """
+<p>
+<ul>
+	<li>Nowcasts are still predicting a strong recovery in Q3</li>
+	<li>The release of worse than expected Q2 actuals this week for volumes and value revised their nowcasts down slightly</li>
+</ul>
+</p>
+"""
+
 # data read
 data = pd.read_csv("nowcasts/data/data.csv", parse_dates=["date_forecast", "target_period"])
 catalog = pd.read_csv("nowcasts/data/catalog.csv")
@@ -23,10 +33,10 @@ data.series = data.series.apply(lambda x: helper.convert_variable_code(x, catalo
 
 # initialization
 target =target_options[0]
-target_period = helper.convert_quarter(target_period_options[0], quarter_to_date=True)
+target_period = helper.convert_quarter(target_period_options[-1], quarter_to_date=True)
 p, pred_text = plots.gen_plot(data, helper.get_full_var_name(catalog, target, False), target, target_period, palette.max_palette)
 target_init = target_options[0]
-target_period_init = target_period_options[0]
+target_period_init = target_period_options[-1]
 
 # dropdowns
 def update_plot_target(attr, old, new):
@@ -34,7 +44,7 @@ def update_plot_target(attr, old, new):
 	target = new
 	p, pred_text = plots.gen_plot(data, helper.get_full_var_name(catalog, new, False), new, target_period, palette.max_palette)
 	curdoc().remove_root(layout)
-	layout = layouts.gen_layout(p, catalog, target_dropdown, target_period_dropdown, pred_text)
+	layout = layouts.gen_layout(p, catalog, target_dropdown, target_period_dropdown, pred_text, commentary)
 	curdoc().add_root(layout)
 
 target_dropdown = Select(
@@ -49,7 +59,7 @@ def update_plot_target_period(attr, old, new):
 	target_period = helper.convert_quarter(new, quarter_to_date=True)
 	p, pred_text = plots.gen_plot(data, helper.get_full_var_name(catalog, target, False), target, helper.convert_quarter(new, quarter_to_date=True), palette.max_palette)
 	curdoc().remove_root(layout)
-	layout = layouts.gen_layout(p, catalog, target_dropdown, target_period_dropdown, pred_text)
+	layout = layouts.gen_layout(p, catalog, target_dropdown, target_period_dropdown, pred_text, commentary)
 	curdoc().add_root(layout)
 	
 target_period_dropdown = Select(
@@ -60,6 +70,6 @@ target_period_dropdown = Select(
 target_period_dropdown.on_change("value", update_plot_target_period)
 	
 # final layout
-layout = layouts.gen_layout(p, catalog, target_dropdown, target_period_dropdown, pred_text)
+layout = layouts.gen_layout(p, catalog, target_dropdown, target_period_dropdown, pred_text, commentary)
 curdoc().add_root(layout)
 curdoc().title = "UNCTAD Nowcasts"
