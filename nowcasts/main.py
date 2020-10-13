@@ -16,7 +16,9 @@ commentary = """
 <p>
 <ul>
 	<li>Nowcasts are still predicting a strong recovery in Q3</li>
-	<li>The release of worse than expected Q2 actuals this week for volumes and value revised their nowcasts down slightly</li>
+	<li>Total merchandise exports: positive revisions and good news in the business confidence index in Japan revise the forecast up after two straight weeks of decline</li>
+	<li>Export volumes, world (UNCTAD): no big moves in the forecast this week</li>
+	<li>Exports of services, world: slight decline in the forecast, much smaller than the previous week</li>
 </ul>
 </p>
 """
