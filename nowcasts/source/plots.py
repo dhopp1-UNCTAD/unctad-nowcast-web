@@ -1,10 +1,11 @@
 # normal imports
 import datetime as dt
 import pandas as pd
+import numpy as np
 
 # bokeh imports
 from bokeh.plotting import figure
-from bokeh.models import Legend, HoverTool
+from bokeh.models import Legend, HoverTool, CustomJS
 
 def gen_plot(data, target, target_name, target_period, palette):
 	# title sizing
@@ -51,7 +52,7 @@ def gen_plot(data, target, target_name, target_period, palette):
 			legend_label=list(pos_stack.columns[1:]), 
 			color=palette[:len(pos_stack.columns[1:])], 
 			width=dt.timedelta(days=5),
-			name="stack"
+			name="pos_stack"
 	)
 	# negative values
 	p.vbar_stack(
@@ -61,7 +62,7 @@ def gen_plot(data, target, target_name, target_period, palette):
 			legend_label=list(neg_stack.columns[1:]), 
 			color=palette[:len(neg_stack.columns[1:])], 
 			width=dt.timedelta(days=5),
-			name="stack"
+			name="neg_stack"
 	)
 	p.line("date_forecast", "value", source=line_data, line_width=1.5, color="black", name="forecast")
 	p.title.text_font_size = title_text_font_size # title
@@ -72,8 +73,13 @@ def gen_plot(data, target, target_name, target_period, palette):
 	
 	# tool tips
 	# for stacked bar chart
-	tooltips = list(zip(
-			pd.Series(stack.columns[1:]), 
+	pos_tooltips = list(zip(
+			pd.Series(stack.columns[1:]) + " (+ contribution)", 
+			pd.Series(stack.columns[1:])
+			.apply(lambda x: "@{" + x + "}{0.00}%"))
+	)
+	neg_tooltips = list(zip(
+			pd.Series(stack.columns[1:]) + " (- contribution)", 
 			pd.Series(stack.columns[1:])
 			.apply(lambda x: "@{" + x + "}{0.00}%"))
 	)
@@ -88,8 +94,13 @@ def gen_plot(data, target, target_name, target_period, palette):
             mode="mouse"
         ),
 		HoverTool(
-            tooltips=tooltips,
-            names=["stack"],
+            tooltips=pos_tooltips,
+            names=["pos_stack"],
+            mode="mouse"
+        ),
+		HoverTool(
+            tooltips=neg_tooltips,
+            names=["neg_stack"],
             mode="mouse"
         )
 	)
