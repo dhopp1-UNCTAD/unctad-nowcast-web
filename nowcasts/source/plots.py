@@ -26,6 +26,13 @@ def gen_plot(data, target, target_name, target_period, palette):
 	stack = stack.pivot(index="date_forecast", columns="series", values="value").reset_index()
 	stack = stack.fillna(0)
 	
+	pos_stack = stack.copy()
+	for col in stack.columns[1:]:
+		pos_stack.loc[pos_stack[col] < 0,col] = 0
+	neg_stack = stack.copy()
+	for col in stack.columns[1:]:
+		neg_stack.loc[neg_stack[col] >= 0,col] = 0
+	
 	# plot
 	p = figure(
 			title=f"{target_name}: {target_period[:4]} Q{int(int(target_period[5:7])/3)} nowcast quarter-over-quarter growth",
@@ -36,12 +43,23 @@ def gen_plot(data, target, target_name, target_period, palette):
 			plot_height=600
 	)
 	p.add_layout(Legend(), 'right')
+	# positive values
 	p.vbar_stack(
-			stackers=stack.columns[1:], 
+			stackers=pos_stack.columns[1:], 
 			x="date_forecast", 
-			source=stack, 
-			legend_label=list(stack.columns[1:]), 
-			color=palette[:len(stack.columns[1:])], 
+			source=pos_stack, 
+			legend_label=list(pos_stack.columns[1:]), 
+			color=palette[:len(pos_stack.columns[1:])], 
+			width=dt.timedelta(days=5),
+			name="stack"
+	)
+	# negative values
+	p.vbar_stack(
+			stackers=neg_stack.columns[1:], 
+			x="date_forecast", 
+			source=neg_stack, 
+			legend_label=list(neg_stack.columns[1:]), 
+			color=palette[:len(neg_stack.columns[1:])], 
 			width=dt.timedelta(days=5),
 			name="stack"
 	)
