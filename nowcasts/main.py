@@ -33,10 +33,12 @@ target_period_options = list(pd.Series(data.target_period.unique()).apply(lambda
 target_period_options.sort()
 data.series = data.series.apply(lambda x: helper.convert_variable_code(x, catalog)) # convert variables from code to name
 
+actuals = pd.read_csv("nowcasts/data/actuals.csv")
+
 # initialization
 target =target_options[0]
 target_period = helper.convert_quarter(target_period_options[-1], quarter_to_date=True)
-p, pred_text = plots.gen_plot(data, helper.get_full_var_name(catalog, target, False), target, target_period, palette.max_palette)
+p, pred_text = plots.gen_plot(data, actuals, helper.get_full_var_name(catalog, target, False), target, target_period, palette.max_palette)
 target_init = target_options[0]
 target_period_init = target_period_options[-1]
 
@@ -44,7 +46,7 @@ target_period_init = target_period_options[-1]
 def update_plot_target(attr, old, new):
 	global p, layout, target, target_dropdown, target_period_dropdown
 	target = new
-	p, pred_text = plots.gen_plot(data, helper.get_full_var_name(catalog, new, False), new, target_period, palette.max_palette)
+	p, pred_text = plots.gen_plot(data, actuals, helper.get_full_var_name(catalog, new, False), new, target_period, palette.max_palette)
 	curdoc().remove_root(layout)
 	layout = layouts.gen_layout(p, catalog, target_dropdown, target_period_dropdown, pred_text, commentary)
 	curdoc().add_root(layout)
@@ -59,7 +61,7 @@ target_dropdown.on_change("value", update_plot_target)
 def update_plot_target_period(attr, old, new):
 	global p, layout, target_period, target_dropdown, target_period_dropdown
 	target_period = helper.convert_quarter(new, quarter_to_date=True)
-	p, pred_text = plots.gen_plot(data, helper.get_full_var_name(catalog, target, False), target, helper.convert_quarter(new, quarter_to_date=True), palette.max_palette)
+	p, pred_text = plots.gen_plot(data, actuals, helper.get_full_var_name(catalog, target, False), target, helper.convert_quarter(new, quarter_to_date=True), palette.max_palette)
 	curdoc().remove_root(layout)
 	layout = layouts.gen_layout(p, catalog, target_dropdown, target_period_dropdown, pred_text, commentary)
 	curdoc().add_root(layout)

@@ -7,7 +7,7 @@ import numpy as np
 from bokeh.plotting import figure
 from bokeh.models import Legend, HoverTool, CustomJS
 
-def gen_plot(data, target, target_name, target_period, palette):
+def gen_plot(data, actuals, target, target_name, target_period, palette):
 	# title sizing
 	title_text_font_size = "14pt"
 	axis_text_font_size = "11pt"
@@ -17,6 +17,11 @@ def gen_plot(data, target, target_name, target_period, palette):
 	mask = (data.series == "forecast") & (data.target == target) & (data.target_period == target_period)
 	line_data = data.loc[mask, ["date_forecast", "value"]].reset_index(drop=True)
 	line_data["date_forecast_string"] = line_data.date_forecast.apply(lambda x: str(x)[:10])
+	
+	# for the actuals line
+	actual_data = actuals.loc[actuals.date == target_period,target].values[0] * 100
+	actual_line = line_data.loc[:,["date_forecast"]]
+	actual_line["actual"] = actual_data
 	
 	# for the stacked bars
 	stack = data.loc[
@@ -65,6 +70,7 @@ def gen_plot(data, target, target_name, target_period, palette):
 			name="neg_stack"
 	)
 	p.line("date_forecast", "value", source=line_data, line_width=1.5, color="black", name="forecast")
+	p.line("date_forecast", "actual", source=actual_line, line_width=1.5, color="black", line_dash="dotted", name="actual")
 	p.title.text_font_size = title_text_font_size # title
 	p.xaxis.major_label_text_font_size = axis_text_font_size # axis ticks
 	p.yaxis.major_label_text_font_size = axis_text_font_size # axis ticks
@@ -87,10 +93,18 @@ def gen_plot(data, target, target_name, target_period, palette):
 	p.add_tools(
         HoverTool(
             tooltips=[
-                ("Date", "@date_forecast_string"),
+                ("Date of nowcast", "@date_forecast_string"),
                 ("Target period nowcast", "@value{0.00}%")
             ],
             names=["forecast"],
+            mode="mouse"
+        ),
+		HoverTool(
+            tooltips=[
+                ("Target period", target_period),
+                ("Actual value", "@actual{0.00}%")
+            ],
+            names=["actual"],
             mode="mouse"
         ),
 		HoverTool(
