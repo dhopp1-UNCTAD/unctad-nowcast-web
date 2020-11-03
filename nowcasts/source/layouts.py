@@ -66,11 +66,11 @@ UNCTAD’s global merchandise trade nowcasts are real-time estimates of current 
 	
 	# final layout
 	layout = column(
+		Div(text=commentary),
 		Spacer(height=15),
 		row(column(target_dropdown), column(target_period_dropdown)),
 		Spacer(height=15),
 		Div(text=pred_text, width=1200),
-		Div(text=commentary),
 		Spacer(height=15),
 		row(tabs)
 	)

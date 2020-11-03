@@ -14,11 +14,19 @@ import source.helper as helper
 # commentary
 commentary = """
 <p>
+<em><strong style="font-size:20px">3 November 2020</strong></em>
+<br><br>
+<strong>Q3 2020</strong>
 <ul>
-	<li>Nowcasts are still predicting a strong recovery in Q3</li>
-	<li>Total merchandise exports: positive revisions and good news in the business confidence index in Japan revise the forecast up after two straight weeks of decline</li>
-	<li>Export volumes, world (UNCTAD): no big moves in the forecast this week</li>
-	<li>Exports of services, world: slight decline in the forecast, much smaller than the previous week</li>
+	<li><strong><em>Total merchandise exports</em></strong>: No significant change to the forecast, strong recovery still expected.</li>
+	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: Downward revisions from Asian export volumes offset by upward data revisions for a net slight increase in the forecast.</li>
+	<li><strong><em>Exports of services, world</em></strong>: Negative data releases revise the nowcast down again slightly, services recovery seems to be the weakest in the third quarter.</li>
+</ul>
+<strong>Q4 2020</strong>
+<ul>
+	<li><strong><em>Total merchandise exports</em></strong>: Positive data regarding Germany's export order books presages a strong recovery in the fourth quarter. However, the nowcast is more than likely to be revised heavily downward in the coming weeks as we see not only the high growth rates of Q3 not sustained, but the fallout from developing autumn lockdowns in Europe.</li>
+	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: Negative manufacturing data and export volumes from Asia presage the weakest Q4 recoveries of the three series.</li>
+	<li><strong><em>Exports of services, world</em></strong>: Negative manufacturing and retail data revise the nowcast down. Some recovery still expected in the fourth quarter, though the trend is a downward one.</li>
 </ul>
 </p>
 """
