@@ -19,14 +19,14 @@ commentary = """
 <strong>Q3 2020</strong>
 <ul>
 	<li><strong><em>Total merchandise exports</em></strong>: No significant change to the forecast, strong recovery still expected.</li>
-	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: Downward revisions from Asian export volumes offset by upward data revisions for a net slight increase in the forecast.</li>
-	<li><strong><em>Exports of services, world</em></strong>: Negative data releases revise the nowcast down again slightly, services recovery seems to be the weakest in the third quarter.</li>
+	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: No significant change to the forecast, strong recovery still expected.</li>
+	<li><strong><em>Exports of services, world</em></strong>: No significant change to the forecast, services recovery still seems to be the weakest in the third quarter.</li>
 </ul>
 <strong>Q4 2020</strong>
 <ul>
-	<li><strong><em>Total merchandise exports</em></strong>: Positive data regarding Germany's export order books presages a strong recovery in the fourth quarter. However, the nowcast is more than likely to be revised heavily downward in the coming weeks as we see not only the high growth rates of Q3 not sustained, but the fallout from developing autumn lockdowns in Europe.</li>
+	<li><strong><em>Total merchandise exports</em></strong>: Negative revisions and news from the Dutch business confidence index significantly revise the nowcast downwards. Further falls expected as the impact of the autumn COVID surge become felt.</li>
 	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: Negative manufacturing data and export volumes from Asia presage the weakest Q4 recoveries of the three series.</li>
-	<li><strong><em>Exports of services, world</em></strong>: Negative manufacturing and retail data revise the nowcast down. Some recovery still expected in the fourth quarter, though the trend is a downward one.</li>
+	<li><strong><em>Exports of services, world</em></strong>: The forecast continues to trend downards, this time driven by downward revisions in the data.</li>
 </ul>
 </p>
 """
