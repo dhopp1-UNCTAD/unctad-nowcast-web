@@ -14,7 +14,7 @@ import source.helper as helper
 # commentary
 commentary = """
 <p>
-<em><strong style="font-size:20px">3 November 2020</strong></em>
+<em><strong style="font-size:20px">10 November 2020</strong></em>
 <br><br>
 <strong>Q3 2020</strong>
 <ul>
