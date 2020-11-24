@@ -14,7 +14,7 @@ import source.helper as helper
 # commentary
 commentary = """
 <p>
-<em><strong style="font-size:20px">17 November 2020</strong></em>
+<em><strong style="font-size:20px">24 November 2020</strong></em>
 <br><br>
 <strong>Q3 2020</strong>
 <ul>
@@ -24,9 +24,9 @@ commentary = """
 </ul>
 <strong>Q4 2020</strong>
 <ul>
-	<li><strong><em>Total merchandise exports</em></strong>: Negative news from the Russian industrial production index, Dutch merchandise exports, and HK airfreight revise the nowcast downwards. Further falls expected as the impact of the autumn COVID surge become felt.</li>
-	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: Net neutral news leaves the nowcast largely unchanged, still projects as the weakest Q4 recovery of the three series.</li>
-	<li><strong><em>Exports of services, world</em></strong>: The forecast continues to trend downards, this time driven by the EU industrial production index.</li>
+	<li><strong><em>Total merchandise exports</em></strong>: Minimal week on week change, very slight negative revision due to data revisions and Japanese merchandise exports.</li>
+	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: Minimal week on week change, very slight positive revision due to data revisions and Japanese merchandise exports.</li>
+	<li><strong><em>Exports of services, world</em></strong>: Essentially no week on week change.</li>
 </ul>
 </p>
 """
