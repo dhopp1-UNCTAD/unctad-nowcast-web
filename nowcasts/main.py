@@ -14,7 +14,7 @@ import source.helper as helper
 # commentary
 commentary = """
 <p>
-<em><strong style="font-size:20px">24 November 2020</strong></em>
+<em><strong style="font-size:20px">01 December 2020</strong></em>
 <br><br>
 <strong>Q3 2020</strong>
 <ul>
@@ -24,9 +24,9 @@ commentary = """
 </ul>
 <strong>Q4 2020</strong>
 <ul>
-	<li><strong><em>Total merchandise exports</em></strong>: Minimal week on week change, very slight negative revision due to data revisions and Japanese merchandise exports.</li>
-	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: Minimal week on week change, very slight positive revision due to data revisions and Japanese merchandise exports.</li>
-	<li><strong><em>Exports of services, world</em></strong>: Essentially no week on week change.</li>
+	<li><strong><em>Total merchandise exports</em></strong>: Minimal week on week change, very slight negative revision.</li>
+	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: Slight negative revision, mostly due to numbers from the business activity confidence indicator in Poland.</li>
+	<li><strong><em>Exports of services, world</em></strong>: Negative numbers from Europe cancelled out by numbers from the United States.</li>
 </ul>
 </p>
 """
