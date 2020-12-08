@@ -20,13 +20,13 @@ commentary = """
 <ul>
 	<li><strong><em>Total merchandise exports</em></strong>: Actuals released, stronger than expected growth of 20.13%, compared with a nowcasted value of 12.83%.</li>
 	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: No significant change to the forecast, strong recovery still expected.</li>
-	<li><strong><em>Exports of services, world</em></strong>: No significant change to the forecast, services recovery still seems to be the weakest in the third quarter.</li>
+	<li><strong><em>Exports of services, world</em></strong>: Upward revision due to Q3 GDP and export volume revisions from the US and Germany.</li>
 </ul>
 <strong>Q4 2020</strong>
 <ul>
-	<li><strong><em>Total merchandise exports</em></strong>: Drastic revision upwards due to better than expected Q3 performance.</li>
+	<li><strong><em>Total merchandise exports</em></strong>: Upwards revision due to better than anticipated Q3 actuals, slightly mitigated by downard revisions in US export volumes Q4 forecasts.</li>
 	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: Slight downwards revision.</li>
-	<li><strong><em>Exports of services, world</em></strong>: Minimal change in the nowcast.</li>
+	<li><strong><em>Exports of services, world</em></strong>: Strong downward revision due to revisions in GDP and export volume revisions in Germany and the US.</li>
 </ul>
 </p>
 """
