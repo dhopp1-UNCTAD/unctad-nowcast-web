@@ -729,8 +729,8 @@ date_forecast,series,value,target,target_period
 2020-09-08,x_world,NA,x_vol_world2,2020-06-01
 2020-09-15,x_world,NA,x_vol_world2,2020-06-01
 2020-09-22,x_world,NA,x_vol_world2,2020-06-01
-2020-07-01,forecast,-17.421808993928085,x_world,2020-09-01
-2020-08-01,forecast,-5.016986469975074,x_world,2020-09-01
+2020-07-01,forecast,-17,x_world,2020-09-01
+2020-08-01,forecast,-4.230589904608569,x_world,2020-09-01
 2020-08-07,forecast,3.902053624081283,x_world,2020-09-01
 2020-08-16,forecast,10.466728491207725,x_world,2020-09-01
 2020-08-25,forecast,8.14073484277847,x_world,2020-09-01
@@ -748,9 +748,10 @@ date_forecast,series,value,target,target_period
 2020-11-17,forecast,12.773008221661394,x_world,2020-09-01
 2020-11-24,forecast,12.77827773696616,x_world,2020-09-01
 2020-12-01,forecast,12.833353665538228,x_world,2020-09-01
+2020-12-08,forecast,12.833353665538228,x_world,2020-09-01
 2020-07-01,impact_revisions,0,x_world,2020-09-01
 2020-08-01,impact_revisions,0,x_world,2020-09-01
-2020-08-07,impact_revisions,-1.4314865290107912,x_world,2020-09-01
+2020-08-07,impact_revisions,-2.217883094377297,x_world,2020-09-01
 2020-08-16,impact_revisions,1.020482722704784,x_world,2020-09-01
 2020-08-25,impact_revisions,0.00979907732447105,x_world,2020-09-01
 2020-09-01,impact_revisions,-0.07479628567420571,x_world,2020-09-01
@@ -767,8 +768,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,impact_revisions,0.011006035190630481,x_world,2020-09-01
 2020-11-24,impact_revisions,-0.016751632799455463,x_world,2020-09-01
 2020-12-01,impact_revisions,0.02498783950444783,x_world,2020-09-01
-2020-07-01,ipi_de,-0.009646784657096938,x_world,2020-09-01
-2020-08-01,ipi_de,0.006704922413920227,x_world,2020-09-01
+2020-12-08,impact_revisions,0,x_world,2020-09-01
+2020-07-01,ipi_de,-0.009567067184090249,x_world,2020-09-01
+2020-08-01,ipi_de,0.006706940648705813,x_world,2020-09-01
 2020-08-07,ipi_de,NA,x_world,2020-09-01
 2020-08-16,ipi_de,0.008084648217828203,x_world,2020-09-01
 2020-08-25,ipi_de,NA,x_world,2020-09-01
@@ -786,8 +788,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,ipi_de,NA,x_world,2020-09-01
 2020-11-24,ipi_de,NA,x_world,2020-09-01
 2020-12-01,ipi_de,NA,x_world,2020-09-01
-2020-07-01,x_it,-2.578938033517325,x_world,2020-09-01
-2020-08-01,x_it,1.858507155818689,x_world,2020-09-01
+2020-12-08,ipi_de,NA,x_world,2020-09-01
+2020-07-01,x_it,-2.5434407215587167,x_world,2020-09-01
+2020-08-01,x_it,1.8641814643630603,x_world,2020-09-01
 2020-08-07,x_it,NA,x_world,2020-09-01
 2020-08-16,x_it,3.5778841857729033,x_world,2020-09-01
 2020-08-25,x_it,NA,x_world,2020-09-01
@@ -805,8 +808,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_it,0.0362074381842972,x_world,2020-09-01
 2020-11-24,x_it,NA,x_world,2020-09-01
 2020-12-01,x_it,NA,x_world,2020-09-01
-2020-07-01,ipi_ru,-0.38093098695825783,x_world,2020-09-01
-2020-08-01,ipi_ru,0.38967946550565213,x_world,2020-09-01
+2020-12-08,x_it,NA,x_world,2020-09-01
+2020-07-01,ipi_ru,-0.35749910886838304,x_world,2020-09-01
+2020-08-01,ipi_ru,0.39299852947351765,x_world,2020-09-01
 2020-08-07,ipi_ru,0.49517009098638926,x_world,2020-09-01
 2020-08-16,ipi_ru,NA,x_world,2020-09-01
 2020-08-25,ipi_ru,NA,x_world,2020-09-01
@@ -824,8 +828,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,ipi_ru,-0.316042684972292,x_world,2020-09-01
 2020-11-24,ipi_ru,NA,x_world,2020-09-01
 2020-12-01,ipi_ru,NA,x_world,2020-09-01
-2020-07-01,x_br,0.11415812745092377,x_world,2020-09-01
-2020-08-01,x_br,-0.015422432033164929,x_world,2020-09-01
+2020-12-08,ipi_ru,NA,x_world,2020-09-01
+2020-07-01,x_br,0.11910743683578036,x_world,2020-09-01
+2020-08-01,x_br,-0.015116018164639124,x_world,2020-09-01
 2020-08-07,x_br,NA,x_world,2020-09-01
 2020-08-16,x_br,0.05208998311242549,x_world,2020-09-01
 2020-08-25,x_br,NA,x_world,2020-09-01
@@ -843,8 +848,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_br,NA,x_world,2020-09-01
 2020-11-24,x_br,NA,x_world,2020-09-01
 2020-12-01,x_br,NA,x_world,2020-09-01
-2020-07-01,x_vol_ez,-0.012849143777669597,x_world,2020-09-01
-2020-08-01,x_vol_ez,0.008033914612155135,x_world,2020-09-01
+2020-12-08,x_br,NA,x_world,2020-09-01
+2020-07-01,x_vol_ez,-0.01276473074299013,x_world,2020-09-01
+2020-08-01,x_vol_ez,0.008036051726096673,x_world,2020-09-01
 2020-08-07,x_vol_ez,NA,x_world,2020-09-01
 2020-08-16,x_vol_ez,NA,x_world,2020-09-01
 2020-08-25,x_vol_ez,NA,x_world,2020-09-01
@@ -862,8 +868,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_vol_ez,NA,x_world,2020-09-01
 2020-11-24,x_vol_ez,NA,x_world,2020-09-01
 2020-12-01,x_vol_ez,2.3215797145523487e-4,x_world,2020-09-01
-2020-07-01,rti_vol_fr,-0.8993298172419657,x_world,2020-09-01
-2020-08-01,rti_vol_fr,0.8347548667755044,x_world,2020-09-01
+2020-12-08,x_vol_ez,NA,x_world,2020-09-01
+2020-07-01,rti_vol_fr,-0.8987919842907999,x_world,2020-09-01
+2020-08-01,rti_vol_fr,0.8348471826591193,x_world,2020-09-01
 2020-08-07,rti_vol_fr,1.3962440925848567,x_world,2020-09-01
 2020-08-16,rti_vol_fr,NA,x_world,2020-09-01
 2020-08-25,rti_vol_fr,NA,x_world,2020-09-01
@@ -881,8 +888,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,rti_vol_fr,NA,x_world,2020-09-01
 2020-11-24,rti_vol_fr,NA,x_world,2020-09-01
 2020-12-01,rti_vol_fr,0.007618403414365077,x_world,2020-09-01
-2020-07-01,constr_ca,-0.5462761049258876,x_world,2020-09-01
-2020-08-01,constr_ca,-1.6072296813809954,x_world,2020-09-01
+2020-12-08,rti_vol_fr,NA,x_world,2020-09-01
+2020-07-01,constr_ca,-0.3537359801187658,x_world,2020-09-01
+2020-08-01,constr_ca,-1.659239243496231,x_world,2020-09-01
 2020-08-07,constr_ca,3.8481668153143467,x_world,2020-09-01
 2020-08-16,constr_ca,NA,x_world,2020-09-01
 2020-08-25,constr_ca,NA,x_world,2020-09-01
@@ -900,8 +908,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,constr_ca,NA,x_world,2020-09-01
 2020-11-24,constr_ca,NA,x_world,2020-09-01
 2020-12-01,constr_ca,NA,x_world,2020-09-01
-2020-07-01,x_nl,-0,x_world,2020-09-01
-2020-08-01,x_nl,0.7874979514636822,x_world,2020-09-01
+2020-12-08,constr_ca,NA,x_world,2020-09-01
+2020-07-01,x_nl,-0.4510951305543483,x_world,2020-09-01
+2020-08-01,x_nl,0.7904892991306293,x_world,2020-09-01
 2020-08-07,x_nl,NA,x_world,2020-09-01
 2020-08-16,x_nl,1.3694889605668659,x_world,2020-09-01
 2020-08-25,x_nl,NA,x_world,2020-09-01
@@ -919,8 +928,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_nl,-0.20380942989387296,x_world,2020-09-01
 2020-11-24,x_nl,NA,x_world,2020-09-01
 2020-12-01,x_nl,NA,x_world,2020-09-01
-2020-07-01,bci_nl,8.067008063402831,x_world,2020-09-01
-2020-08-01,bci_nl,8.50804601526569,x_world,2020-09-01
+2020-12-08,x_nl,NA,x_world,2020-09-01
+2020-07-01,bci_nl,8.436744650010386,x_world,2020-09-01
+2020-08-01,bci_nl,8.901585016349072,x_world,2020-09-01
 2020-08-07,bci_nl,4.610945624181544,x_world,2020-09-01
 2020-08-16,bci_nl,NA,x_world,2020-09-01
 2020-08-25,bci_nl,NA,x_world,2020-09-01
@@ -938,8 +948,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,bci_nl,NA,x_world,2020-09-01
 2020-11-24,bci_nl,NA,x_world,2020-09-01
 2020-12-01,bci_nl,NA,x_world,2020-09-01
-2020-07-01,x_servs_ez,-0.2979459302274196,x_world,2020-09-01
-2020-08-01,x_servs_ez,-0.031038276047823648,x_world,2020-09-01
+2020-12-08,bci_nl,NA,x_world,2020-09-01
+2020-07-01,x_servs_ez,-0.29731135608297493,x_world,2020-09-01
+2020-08-01,x_servs_ez,-0.03094752654292815,x_world,2020-09-01
 2020-08-07,x_servs_ez,NA,x_world,2020-09-01
 2020-08-16,x_servs_ez,NA,x_world,2020-09-01
 2020-08-25,x_servs_ez,0.04098293804725171,x_world,2020-09-01
@@ -957,8 +968,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_servs_ez,NA,x_world,2020-09-01
 2020-11-24,x_servs_ez,0.0342613585778527,x_world,2020-09-01
 2020-12-01,x_servs_ez,NA,x_world,2020-09-01
-2020-07-01,x_jp,0.535877360189988,x_world,2020-09-01
-2020-08-01,x_jp,0.8391453337447223,x_world,2020-09-01
+2020-12-08,x_servs_ez,NA,x_world,2020-09-01
+2020-07-01,x_jp,0.574630209126693,x_world,2020-09-01
+2020-08-01,x_jp,0.840142987432473,x_world,2020-09-01
 2020-08-07,x_jp,NA,x_world,2020-09-01
 2020-08-16,x_jp,NA,x_world,2020-09-01
 2020-08-25,x_jp,0.04525742481080672,x_world,2020-09-01
@@ -976,8 +988,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_jp,NA,x_world,2020-09-01
 2020-11-24,x_jp,-0.012240210473633736,x_world,2020-09-01
 2020-12-01,x_jp,NA,x_world,2020-09-01
-2020-07-01,air_freight_hkg,0.5534624605461241,x_world,2020-09-01
-2020-08-01,air_freight_hkg,0.4014063949618508,x_world,2020-09-01
+2020-12-08,x_jp,NA,x_world,2020-09-01
+2020-07-01,air_freight_hkg,0.5691134724224847,x_world,2020-09-01
+2020-08-01,air_freight_hkg,0.40180821370418873,x_world,2020-09-01
 2020-08-07,air_freight_hkg,NA,x_world,2020-09-01
 2020-08-16,air_freight_hkg,-0.20630530870185257,x_world,2020-09-01
 2020-08-25,air_freight_hkg,NA,x_world,2020-09-01
@@ -995,8 +1008,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,air_freight_hkg,-0.07006520506406333,x_world,2020-09-01
 2020-11-24,air_freight_hkg,NA,x_world,2020-09-01
 2020-12-01,air_freight_hkg,NA,x_world,2020-09-01
-2020-07-01,bci_jp,-0.9516851641689883,x_world,2020-09-01
-2020-08-01,bci_jp,0.6392612658669332,x_world,2020-09-01
+2020-12-08,air_freight_hkg,NA,x_world,2020-09-01
+2020-07-01,bci_jp,-1.0082927955457566,x_world,2020-09-01
+2020-08-01,bci_jp,0.6692725582832854,x_world,2020-09-01
 2020-08-07,bci_jp,NA,x_world,2020-09-01
 2020-08-16,bci_jp,NA,x_world,2020-09-01
 2020-08-25,bci_jp,NA,x_world,2020-09-01
@@ -1014,8 +1028,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,bci_jp,NA,x_world,2020-09-01
 2020-11-24,bci_jp,NA,x_world,2020-09-01
 2020-12-01,bci_jp,NA,x_world,2020-09-01
-2020-07-01,export_orders_de,0.11909442507616153,x_world,2020-09-01
-2020-08-01,export_orders_de,0.3619411935515747,x_world,2020-09-01
+2020-12-08,bci_jp,NA,x_world,2020-09-01
+2020-07-01,export_orders_de,0.15494294315228763,x_world,2020-09-01
+2020-08-01,export_orders_de,0.3628669218552857,x_world,2020-09-01
 2020-08-07,export_orders_de,NA,x_world,2020-09-01
 2020-08-16,export_orders_de,0.7429496754535,x_world,2020-09-01
 2020-08-25,export_orders_de,NA,x_world,2020-09-01
@@ -1033,8 +1048,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,export_orders_de,NA,x_world,2020-09-01
 2020-11-24,export_orders_de,NA,x_world,2020-09-01
 2020-12-01,export_orders_de,0.05826204510426185,x_world,2020-09-01
-2020-07-01,x_vol_cis,0.2869469999130122,x_world,2020-09-01
-2020-08-01,x_vol_cis,0.2300966264369396,x_world,2020-09-01
+2020-12-08,export_orders_de,NA,x_world,2020-09-01
+2020-07-01,x_vol_cis,0.2936591042059294,x_world,2020-09-01
+2020-08-01,x_vol_cis,0.23092579948506384,x_world,2020-09-01
 2020-08-07,x_vol_cis,NA,x_world,2020-09-01
 2020-08-16,x_vol_cis,NA,x_world,2020-09-01
 2020-08-25,x_vol_cis,NA,x_world,2020-09-01
@@ -1052,8 +1068,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_vol_cis,NA,x_world,2020-09-01
 2020-11-24,x_vol_cis,NA,x_world,2020-09-01
 2020-12-01,x_vol_cis,0.025406486164339267,x_world,2020-09-01
+2020-12-08,x_vol_cis,NA,x_world,2020-09-01
 2020-07-01,x_world,NA,x_world,2020-09-01
-2020-08-01,x_world,1.8026071973834836,x_world,2020-09-01
+2020-08-01,x_world,2.5636078225807615,x_world,2020-09-01
 2020-08-07,x_world,NA,x_world,2020-09-01
 2020-08-16,x_world,NA,x_world,2020-09-01
 2020-08-25,x_world,0.9245981467232048,x_world,2020-09-01
@@ -1071,8 +1088,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_world,NA,x_world,2020-09-01
 2020-11-24,x_world,NA,x_world,2020-09-01
 2020-12-01,x_world,NA,x_world,2020-09-01
+2020-12-08,x_world,NA,x_world,2020-09-01
 2020-07-01,fc_x_us,NA,x_world,2020-09-01
-2020-08-01,fc_x_us,-2.6091693903859086,x_world,2020-09-01
+2020-08-01,fc_x_us,-2.5783838401386308,x_world,2020-09-01
 2020-08-07,fc_x_us,NA,x_world,2020-09-01
 2020-08-16,fc_x_us,NA,x_world,2020-09-01
 2020-08-25,fc_x_us,-3.346631235335018,x_world,2020-09-01
@@ -1090,8 +1108,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,fc_x_us,NA,x_world,2020-09-01
 2020-11-24,fc_x_us,NA,x_world,2020-09-01
 2020-12-01,fc_x_us,-0.06143100358679618,x_world,2020-09-01
-2020-07-01,forecast,-5.990647770490071,x_servs_world,2020-09-01
-2020-08-01,forecast,5.8751896459612984,x_servs_world,2020-09-01
+2020-12-08,fc_x_us,NA,x_world,2020-09-01
+2020-07-01,forecast,-5.826162939561703,x_servs_world,2020-09-01
+2020-08-01,forecast,6.449676937903899,x_servs_world,2020-09-01
 2020-08-07,forecast,12.107471186772766,x_servs_world,2020-09-01
 2020-08-16,forecast,17.807224637367877,x_servs_world,2020-09-01
 2020-08-25,forecast,12.93390400585093,x_servs_world,2020-09-01
@@ -1109,9 +1128,10 @@ date_forecast,series,value,target,target_period
 2020-11-17,forecast,11.313635814983941,x_servs_world,2020-09-01
 2020-11-24,forecast,11.313635814983941,x_servs_world,2020-09-01
 2020-12-01,forecast,11.202927172945028,x_servs_world,2020-09-01
+2020-12-08,forecast,10.57105709243392,x_servs_world,2020-09-01
 2020-07-01,impact_revisions,0,x_servs_world,2020-09-01
 2020-08-01,impact_revisions,0,x_servs_world,2020-09-01
-2020-08-07,impact_revisions,0.6400734574918965,x_servs_world,2020-09-01
+2020-08-07,impact_revisions,0.06558616554929592,x_servs_world,2020-09-01
 2020-08-16,impact_revisions,3.3788285234055166,x_servs_world,2020-09-01
 2020-08-25,impact_revisions,-0.2693608158760713,x_servs_world,2020-09-01
 2020-09-01,impact_revisions,-0.07200143718305019,x_servs_world,2020-09-01
@@ -1128,8 +1148,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,impact_revisions,0.04112725864190703,x_servs_world,2020-09-01
 2020-11-24,impact_revisions,0,x_servs_world,2020-09-01
 2020-12-01,impact_revisions,0.03406888419067028,x_servs_world,2020-09-01
-2020-07-01,x_nl,-9.314789054939338e-5,x_servs_world,2020-09-01
-2020-08-01,x_nl,0.001572809469403974,x_servs_world,2020-09-01
+2020-12-08,impact_revisions,0.19247008912908897,x_servs_world,2020-09-01
+2020-07-01,x_nl,-5.842369364096853e-5,x_servs_world,2020-09-01
+2020-08-01,x_nl,0.0015752073177532008,x_servs_world,2020-09-01
 2020-08-07,x_nl,NA,x_servs_world,2020-09-01
 2020-08-16,x_nl,7.427855362403385e-4,x_servs_world,2020-09-01
 2020-08-25,x_nl,NA,x_servs_world,2020-09-01
@@ -1147,8 +1168,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_nl,-2.4420632559543404e-4,x_servs_world,2020-09-01
 2020-11-24,x_nl,NA,x_servs_world,2020-09-01
 2020-12-01,x_nl,NA,x_servs_world,2020-09-01
-2020-07-01,x_servs_us,-0.002432847608627828,x_servs_world,2020-09-01
-2020-08-01,x_servs_us,0.00120012554208575,x_servs_world,2020-09-01
+2020-12-08,x_nl,NA,x_servs_world,2020-09-01
+2020-07-01,x_servs_us,-0.0015084570285674593,x_servs_world,2020-09-01
+2020-08-01,x_servs_us,0.0015094883390896871,x_servs_world,2020-09-01
 2020-08-07,x_servs_us,2.75839071379901e-4,x_servs_world,2020-09-01
 2020-08-16,x_servs_us,NA,x_servs_world,2020-09-01
 2020-08-25,x_servs_us,NA,x_servs_world,2020-09-01
@@ -1166,8 +1188,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_servs_us,NA,x_servs_world,2020-09-01
 2020-11-24,x_servs_us,NA,x_servs_world,2020-09-01
 2020-12-01,x_servs_us,NA,x_servs_world,2020-09-01
-2020-07-01,p_manuf,0.06745387248016056,x_servs_world,2020-09-01
-2020-08-01,p_manuf,0.1521318472055736,x_servs_world,2020-09-01
+2020-12-08,x_servs_us,-5.3891656648281176e-5,x_servs_world,2020-09-01
+2020-07-01,p_manuf,0.07189086277706604,x_servs_world,2020-09-01
+2020-08-01,p_manuf,0.1520865068282179,x_servs_world,2020-09-01
 2020-08-07,p_manuf,NA,x_servs_world,2020-09-01
 2020-08-16,p_manuf,NA,x_servs_world,2020-09-01
 2020-08-25,p_manuf,NA,x_servs_world,2020-09-01
@@ -1185,8 +1208,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,p_manuf,NA,x_servs_world,2020-09-01
 2020-11-24,p_manuf,NA,x_servs_world,2020-09-01
 2020-12-01,p_manuf,NA,x_servs_world,2020-09-01
-2020-07-01,bci_nl,11.459289973822465,x_servs_world,2020-09-01
-2020-08-01,bci_nl,6.799145280431242,x_servs_world,2020-09-01
+2020-12-08,p_manuf,-0.018306889898064175,x_servs_world,2020-09-01
+2020-07-01,bci_nl,11.958010615284966,x_servs_world,2020-09-01
+2020-08-01,bci_nl,7.143604054939721,x_servs_world,2020-09-01
 2020-08-07,bci_nl,0.16845769619829631,x_servs_world,2020-09-01
 2020-08-16,bci_nl,NA,x_servs_world,2020-09-01
 2020-08-25,bci_nl,NA,x_servs_world,2020-09-01
@@ -1204,8 +1228,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,bci_nl,NA,x_servs_world,2020-09-01
 2020-11-24,bci_nl,NA,x_servs_world,2020-09-01
 2020-12-01,bci_nl,NA,x_servs_world,2020-09-01
-2020-07-01,manuf_orders_us_2,-0.14064774192671148,x_servs_world,2020-09-01
-2020-08-01,manuf_orders_us_2,0.6873996881505466,x_servs_world,2020-09-01
+2020-12-08,bci_nl,-0.029819328667105904,x_servs_world,2020-09-01
+2020-07-01,manuf_orders_us_2,-0.1291746149730688,x_servs_world,2020-09-01
+2020-08-01,manuf_orders_us_2,0.6896731610527332,x_servs_world,2020-09-01
 2020-08-07,manuf_orders_us_2,0.8164248487488754,x_servs_world,2020-09-01
 2020-08-16,manuf_orders_us_2,NA,x_servs_world,2020-09-01
 2020-08-25,manuf_orders_us_2,NA,x_servs_world,2020-09-01
@@ -1223,8 +1248,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,manuf_orders_us_2,NA,x_servs_world,2020-09-01
 2020-11-24,manuf_orders_us_2,NA,x_servs_world,2020-09-01
 2020-12-01,manuf_orders_us_2,NA,x_servs_world,2020-09-01
-2020-07-01,rti_val_fr,-0.8256216748100053,x_servs_world,2020-09-01
-2020-08-01,rti_val_fr,1.0662663173326876,x_servs_world,2020-09-01
+2020-12-08,manuf_orders_us_2,-0.024456469729421577,x_servs_world,2020-09-01
+2020-07-01,rti_val_fr,-0.8233979576940201,x_servs_world,2020-09-01
+2020-08-01,rti_val_fr,1.0668596039748501,x_servs_world,2020-09-01
 2020-08-07,rti_val_fr,1.9577737613388022,x_servs_world,2020-09-01
 2020-08-16,rti_val_fr,NA,x_servs_world,2020-09-01
 2020-08-25,rti_val_fr,NA,x_servs_world,2020-09-01
@@ -1242,8 +1268,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,rti_val_fr,NA,x_servs_world,2020-09-01
 2020-11-24,rti_val_fr,NA,x_servs_world,2020-09-01
 2020-12-01,rti_val_fr,-0.004453382588169716,x_servs_world,2020-09-01
-2020-07-01,ipi_jp,-1.0169101334094021e-4,x_servs_world,2020-09-01
-2020-08-01,ipi_jp,-1.1687447059243895e-4,x_servs_world,2020-09-01
+2020-12-08,rti_val_fr,NA,x_servs_world,2020-09-01
+2020-07-01,ipi_jp,-7.420147869826752e-5,x_servs_world,2020-09-01
+2020-08-01,ipi_jp,-1.1497620537300753e-4,x_servs_world,2020-09-01
 2020-08-07,ipi_jp,6.354718566290908e-4,x_servs_world,2020-09-01
 2020-08-16,ipi_jp,NA,x_servs_world,2020-09-01
 2020-08-25,ipi_jp,NA,x_servs_world,2020-09-01
@@ -1261,8 +1288,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,ipi_jp,NA,x_servs_world,2020-09-01
 2020-11-24,ipi_jp,NA,x_servs_world,2020-09-01
 2020-12-01,ipi_jp,6.937892000767467e-5,x_servs_world,2020-09-01
-2020-07-01,manuf_emp_fut_it,1.7124065452374,x_servs_world,2020-09-01
-2020-08-01,manuf_emp_fut_it,0.9950159520488926,x_servs_world,2020-09-01
+2020-12-08,ipi_jp,NA,x_servs_world,2020-09-01
+2020-07-01,manuf_emp_fut_it,1.7493705354633498,x_servs_world,2020-09-01
+2020-08-01,manuf_emp_fut_it,0.9897961806548677,x_servs_world,2020-09-01
 2020-08-07,manuf_emp_fut_it,NA,x_servs_world,2020-09-01
 2020-08-16,manuf_emp_fut_it,NA,x_servs_world,2020-09-01
 2020-08-25,manuf_emp_fut_it,NA,x_servs_world,2020-09-01
@@ -1280,8 +1308,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,manuf_emp_fut_it,NA,x_servs_world,2020-09-01
 2020-11-24,manuf_emp_fut_it,NA,x_servs_world,2020-09-01
 2020-12-01,manuf_emp_fut_it,-0.03958657459425131,x_servs_world,2020-09-01
-2020-07-01,ipi_eu27,-1.6545513524213322,x_servs_world,2020-09-01
-2020-08-01,ipi_eu27,1.5067097868379429,x_servs_world,2020-09-01
+2020-12-08,manuf_emp_fut_it,NA,x_servs_world,2020-09-01
+2020-07-01,ipi_eu27,-1.63719920640736,x_servs_world,2020-09-01
+2020-08-01,ipi_eu27,1.510315705574854,x_servs_world,2020-09-01
 2020-08-07,ipi_eu27,NA,x_servs_world,2020-09-01
 2020-08-16,ipi_eu27,2.3543767623270537,x_servs_world,2020-09-01
 2020-08-25,ipi_eu27,NA,x_servs_world,2020-09-01
@@ -1299,8 +1328,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,ipi_eu27,-0.23582328056222018,x_servs_world,2020-09-01
 2020-11-24,ipi_eu27,NA,x_servs_world,2020-09-01
 2020-12-01,ipi_eu27,NA,x_servs_world,2020-09-01
-2020-07-01,x_vol_ez,-1.2435579013614468,x_servs_world,2020-09-01
-2020-08-01,x_vol_ez,0.887416108165742,x_servs_world,2020-09-01
+2020-12-08,ipi_eu27,NA,x_servs_world,2020-09-01
+2020-07-01,x_vol_ez,-1.229207694710011,x_servs_world,2020-09-01
+2020-08-01,x_vol_ez,0.8905332698352191,x_servs_world,2020-09-01
 2020-08-07,x_vol_ez,NA,x_servs_world,2020-09-01
 2020-08-16,x_vol_ez,NA,x_servs_world,2020-09-01
 2020-08-25,x_vol_ez,NA,x_servs_world,2020-09-01
@@ -1318,8 +1348,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_vol_ez,NA,x_servs_world,2020-09-01
 2020-11-24,x_vol_ez,NA,x_servs_world,2020-09-01
 2020-12-01,x_vol_ez,-0.021538293813567207,x_servs_world,2020-09-01
-2020-07-01,manuf_orders_it,-0.38619171347098835,x_servs_world,2020-09-01
-2020-08-01,manuf_orders_it,0.5369384064783531,x_servs_world,2020-09-01
+2020-12-08,x_vol_ez,NA,x_servs_world,2020-09-01
+2020-07-01,manuf_orders_it,-0.37098797472338246,x_servs_world,2020-09-01
+2020-08-01,manuf_orders_it,0.5398169370576529,x_servs_world,2020-09-01
 2020-08-07,manuf_orders_it,0.5054264848389756,x_servs_world,2020-09-01
 2020-08-16,manuf_orders_it,NA,x_servs_world,2020-09-01
 2020-08-25,manuf_orders_it,NA,x_servs_world,2020-09-01
@@ -1337,8 +1368,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,manuf_orders_it,NA,x_servs_world,2020-09-01
 2020-11-24,manuf_orders_it,NA,x_servs_world,2020-09-01
 2020-12-01,manuf_orders_it,-0.05193524677230379,x_servs_world,2020-09-01
-2020-07-01,export_orders_it,1.4738692901079753,x_servs_world,2020-09-01
-2020-08-01,export_orders_it,1.3647600211203539,x_servs_world,2020-09-01
+2020-12-08,manuf_orders_it,NA,x_servs_world,2020-09-01
+2020-07-01,export_orders_it,1.5234276206562487,x_servs_world,2020-09-01
+2020-08-01,export_orders_it,1.3577814684679592,x_servs_world,2020-09-01
 2020-08-07,export_orders_it,NA,x_servs_world,2020-09-01
 2020-08-16,export_orders_it,NA,x_servs_world,2020-09-01
 2020-08-25,export_orders_it,NA,x_servs_world,2020-09-01
@@ -1356,8 +1388,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,export_orders_it,NA,x_servs_world,2020-09-01
 2020-11-24,export_orders_it,NA,x_servs_world,2020-09-01
 2020-12-01,export_orders_it,-0.050911003887771596,x_servs_world,2020-09-01
-2020-07-01,cci_br,8.981623074882572e-4,x_servs_world,2020-09-01
-2020-08-01,cci_br,0.002720163657182082,x_servs_world,2020-09-01
+2020-12-08,export_orders_it,NA,x_servs_world,2020-09-01
+2020-07-01,cci_br,9.416178785183533e-4,x_servs_world,2020-09-01
+2020-08-01,cci_br,0.002711974937677456,x_servs_world,2020-09-01
 2020-08-07,cci_br,0.0022239972927094584,x_servs_world,2020-09-01
 2020-08-16,cci_br,NA,x_servs_world,2020-09-01
 2020-08-25,cci_br,NA,x_servs_world,2020-09-01
@@ -1375,8 +1408,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,cci_br,NA,x_servs_world,2020-09-01
 2020-11-24,cci_br,NA,x_servs_world,2020-09-01
 2020-12-01,cci_br,-1.1105530980581682e-5,x_servs_world,2020-09-01
-2020-07-01,rti_val_es,-1.0180297405425982,x_servs_world,2020-09-01
-2020-08-01,rti_val_es,0.775665054220721,x_servs_world,2020-09-01
+2020-12-08,cci_br,NA,x_servs_world,2020-09-01
+2020-07-01,rti_val_es,-1.0136214648915371,x_servs_world,2020-09-01
+2020-08-01,rti_val_es,0.7765244909514636,x_servs_world,2020-09-01
 2020-08-07,rti_val_es,2.14098998397386,x_servs_world,2020-09-01
 2020-08-16,rti_val_es,NA,x_servs_world,2020-09-01
 2020-08-25,rti_val_es,NA,x_servs_world,2020-09-01
@@ -1394,8 +1428,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,rti_val_es,NA,x_servs_world,2020-09-01
 2020-11-24,rti_val_es,NA,x_servs_world,2020-09-01
 2020-12-01,rti_val_es,-0.008576390357757056,x_servs_world,2020-09-01
-2020-07-01,export_orders_uk,0.09179560321753137,x_servs_world,2020-09-01
-2020-08-01,export_orders_uk,-0.10478040866112684,x_servs_world,2020-09-01
+2020-12-08,rti_val_es,NA,x_servs_world,2020-09-01
+2020-07-01,export_orders_uk,0.09635479738867751,x_servs_world,2020-09-01
+2020-08-01,export_orders_uk,-0.10537392150638628,x_servs_world,2020-09-01
 2020-08-07,export_orders_uk,NA,x_servs_world,2020-09-01
 2020-08-16,export_orders_uk,-0.034194620673695476,x_servs_world,2020-09-01
 2020-08-25,export_orders_uk,NA,x_servs_world,2020-09-01
@@ -1413,8 +1448,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,export_orders_uk,NA,x_servs_world,2020-09-01
 2020-11-24,export_orders_uk,NA,x_servs_world,2020-09-01
 2020-12-01,export_orders_uk,-0.006439874741931396,x_servs_world,2020-09-01
+2020-12-08,export_orders_uk,NA,x_servs_world,2020-09-01
 2020-07-01,x_servs_world,NA,x_servs_world,2020-09-01
-2020-08-01,x_servs_world,-0.9710660392719642,x_servs_world,2020-09-01
+2020-08-01,x_servs_world,-0.9461941592679215,x_servs_world,2020-09-01
 2020-08-07,x_servs_world,NA,x_servs_world,2020-09-01
 2020-08-16,x_servs_world,NA,x_servs_world,2020-09-01
 2020-08-25,x_servs_world,-0.8023453053780601,x_servs_world,2020-09-01
@@ -1432,8 +1468,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_servs_world,NA,x_servs_world,2020-09-01
 2020-11-24,x_servs_world,NA,x_servs_world,2020-09-01
 2020-12-01,x_servs_world,NA,x_servs_world,2020-09-01
+2020-12-08,x_servs_world,NA,x_servs_world,2020-09-01
 2020-07-01,fc_x_us,NA,x_servs_world,2020-09-01
-2020-08-01,fc_x_us,0.1655704254541588,x_servs_world,2020-09-01
+2020-08-01,fc_x_us,0.1799772780685851,x_servs_world,2020-09-01
 2020-08-07,fc_x_us,NA,x_servs_world,2020-09-01
 2020-08-16,fc_x_us,NA,x_servs_world,2020-09-01
 2020-08-25,fc_x_us,-0.9382454409610308,x_servs_world,2020-09-01
@@ -1451,8 +1488,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,fc_x_us,NA,x_servs_world,2020-09-01
 2020-11-24,fc_x_us,NA,x_servs_world,2020-09-01
 2020-12-01,fc_x_us,0.008021075626056888,x_servs_world,2020-09-01
+2020-12-08,fc_x_us,NA,x_servs_world,2020-09-01
 2020-07-01,fc_x_de,NA,x_servs_world,2020-09-01
-2020-08-01,fc_x_de,-0.6899330635327933,x_servs_world,2020-09-01
+2020-08-01,fc_x_de,-0.6756477071707814,x_servs_world,2020-09-01
 2020-08-07,fc_x_de,NA,x_servs_world,2020-09-01
 2020-08-16,fc_x_de,NA,x_servs_world,2020-09-01
 2020-08-25,fc_x_de,-1.6042111441070896,x_servs_world,2020-09-01
@@ -1470,8 +1508,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,fc_x_de,NA,x_servs_world,2020-09-01
 2020-11-24,fc_x_de,NA,x_servs_world,2020-09-01
 2020-12-01,fc_x_de,-5.7332091453640335e-5,x_servs_world,2020-09-01
+2020-12-08,fc_x_de,NA,x_servs_world,2020-09-01
 2020-07-01,fc_gdp_us,NA,x_servs_world,2020-09-01
-2020-08-01,fc_gdp_us,-1.3625536855269154,x_servs_world,2020-09-01
+2020-08-01,fc_gdp_us,-1.3594019403042417,x_servs_world,2020-09-01
 2020-08-07,fc_gdp_us,NA,x_servs_world,2020-09-01
 2020-08-16,fc_gdp_us,NA,x_servs_world,2020-09-01
 2020-08-25,fc_gdp_us,-1.080756785666166,x_servs_world,2020-09-01
@@ -1489,8 +1528,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,fc_gdp_us,NA,x_servs_world,2020-09-01
 2020-11-24,fc_gdp_us,NA,x_servs_world,2020-09-01
 2020-12-01,fc_gdp_us,0.03064122360253637,x_servs_world,2020-09-01
+2020-12-08,fc_gdp_us,NA,x_servs_world,2020-09-01
 2020-07-01,x_world,NA,x_servs_world,2020-09-01
-2020-08-01,x_world,0.046570320858048124,x_servs_world,2020-09-01
+2020-08-01,x_world,0.05478454433645078,x_servs_world,2020-09-01
 2020-08-07,x_world,NA,x_servs_world,2020-09-01
 2020-08-16,x_world,NA,x_servs_world,2020-09-01
 2020-08-25,x_world,-0.19330219177712266,x_servs_world,2020-09-01
@@ -1508,8 +1548,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_world,NA,x_servs_world,2020-09-01
 2020-11-24,x_world,NA,x_servs_world,2020-09-01
 2020-12-01,x_world,NA,x_servs_world,2020-09-01
+2020-12-08,x_world,-0.7517035896889541,x_servs_world,2020-09-01
 2020-07-01,x_servs_sg,NA,x_servs_world,2020-09-01
-2020-08-01,x_servs_sg,0.005205180941960101,x_servs_world,2020-09-01
+2020-08-01,x_servs_sg,0.00502270958334899,x_servs_world,2020-09-01
 2020-08-07,x_servs_sg,NA,x_servs_world,2020-09-01
 2020-08-16,x_servs_sg,NA,x_servs_world,2020-09-01
 2020-08-25,x_servs_sg,0.01949641607692095,x_servs_world,2020-09-01
@@ -1527,8 +1568,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_servs_sg,NA,x_servs_world,2020-09-01
 2020-11-24,x_servs_sg,NA,x_servs_world,2020-09-01
 2020-12-01,x_servs_sg,NA,x_servs_world,2020-09-01
-2020-07-01,forecast,-7.756388350849658,x_vol_world2,2020-09-01
-2020-08-01,forecast,2.132600773617823,x_vol_world2,2020-09-01
+2020-12-08,x_servs_sg,NA,x_servs_world,2020-09-01
+2020-07-01,forecast,-7.763812320247555,x_vol_world2,2020-09-01
+2020-08-01,forecast,2.1340206067651266,x_vol_world2,2020-09-01
 2020-08-07,forecast,4.663514844221824,x_vol_world2,2020-09-01
 2020-08-16,forecast,8.838911660475889,x_vol_world2,2020-09-01
 2020-08-25,forecast,7.994000390027645,x_vol_world2,2020-09-01
@@ -1546,9 +1588,10 @@ date_forecast,series,value,target,target_period
 2020-11-17,forecast,8.502326103640165,x_vol_world2,2020-09-01
 2020-11-24,forecast,8.613015956391758,x_vol_world2,2020-09-01
 2020-12-01,forecast,8.6160755797772,x_vol_world2,2020-09-01
+2020-12-08,forecast,8.168279278333754,x_vol_world2,2020-09-01
 2020-07-01,impact_revisions,0,x_vol_world2,2020-09-01
 2020-08-01,impact_revisions,0,x_vol_world2,2020-09-01
-2020-08-07,impact_revisions,0.10271102448807766,x_vol_world2,2020-09-01
+2020-08-07,impact_revisions,0.10129119134077436,x_vol_world2,2020-09-01
 2020-08-16,impact_revisions,-0.05259731123985825,x_vol_world2,2020-09-01
 2020-08-25,impact_revisions,0.0034321930213424,x_vol_world2,2020-09-01
 2020-09-01,impact_revisions,-0.02591640834955361,x_vol_world2,2020-09-01
@@ -1565,8 +1608,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,impact_revisions,0.007690451792646824,x_vol_world2,2020-09-01
 2020-11-24,impact_revisions,0.10612009825989588,x_vol_world2,2020-09-01
 2020-12-01,impact_revisions,-0.06317258574369267,x_vol_world2,2020-09-01
-2020-07-01,bci_nl,0.0036271624156727815,x_vol_world2,2020-09-01
-2020-08-01,bci_nl,0.0270736769568852,x_vol_world2,2020-09-01
+2020-12-08,impact_revisions,0.00442331999442741,x_vol_world2,2020-09-01
+2020-07-01,bci_nl,0.003049572222290951,x_vol_world2,2020-09-01
+2020-08-01,bci_nl,0.027662048252515947,x_vol_world2,2020-09-01
 2020-08-07,bci_nl,0.018329165640034444,x_vol_world2,2020-09-01
 2020-08-16,bci_nl,NA,x_vol_world2,2020-09-01
 2020-08-25,bci_nl,NA,x_vol_world2,2020-09-01
@@ -1584,8 +1628,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,bci_nl,NA,x_vol_world2,2020-09-01
 2020-11-24,bci_nl,NA,x_vol_world2,2020-09-01
 2020-12-01,bci_nl,NA,x_vol_world2,2020-09-01
-2020-07-01,x_vol_jp,-0.06018016581646717,x_vol_world2,2020-09-01
-2020-08-01,x_vol_jp,0.16462889818271625,x_vol_world2,2020-09-01
+2020-12-08,bci_nl,-4.207670434347325e-6,x_vol_world2,2020-09-01
+2020-07-01,x_vol_jp,-0.06024912145962256,x_vol_world2,2020-09-01
+2020-08-01,x_vol_jp,0.16506143717031796,x_vol_world2,2020-09-01
 2020-08-07,x_vol_jp,NA,x_vol_world2,2020-09-01
 2020-08-16,x_vol_jp,NA,x_vol_world2,2020-09-01
 2020-08-25,x_vol_jp,NA,x_vol_world2,2020-09-01
@@ -1603,8 +1648,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_vol_jp,NA,x_vol_world2,2020-09-01
 2020-11-24,x_vol_jp,NA,x_vol_world2,2020-09-01
 2020-12-01,x_vol_jp,0.0323225493732494,x_vol_world2,2020-09-01
-2020-07-01,x_jp,0.48229144175444333,x_vol_world2,2020-09-01
-2020-08-01,x_jp,0.9777157397886068,x_vol_world2,2020-09-01
+2020-12-08,x_vol_jp,NA,x_vol_world2,2020-09-01
+2020-07-01,x_jp,0.48216212680101816,x_vol_world2,2020-09-01
+2020-08-01,x_jp,0.9785410895894323,x_vol_world2,2020-09-01
 2020-08-07,x_jp,NA,x_vol_world2,2020-09-01
 2020-08-16,x_jp,NA,x_vol_world2,2020-09-01
 2020-08-25,x_jp,-0.2514967879811506,x_vol_world2,2020-09-01
@@ -1622,8 +1668,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_jp,NA,x_vol_world2,2020-09-01
 2020-11-24,x_jp,0.004569754491696434,x_vol_world2,2020-09-01
 2020-12-01,x_jp,NA,x_vol_world2,2020-09-01
-2020-07-01,manuf_ba_conf_pl,0.9465362909223939,x_vol_world2,2020-09-01
-2020-08-01,manuf_ba_conf_pl,2.392212116671498,x_vol_world2,2020-09-01
+2020-12-08,x_jp,NA,x_vol_world2,2020-09-01
+2020-07-01,manuf_ba_conf_pl,0.9464242486398841,x_vol_world2,2020-09-01
+2020-08-01,manuf_ba_conf_pl,2.3929298790985003,x_vol_world2,2020-09-01
 2020-08-07,manuf_ba_conf_pl,1.3785961253837937,x_vol_world2,2020-09-01
 2020-08-16,manuf_ba_conf_pl,NA,x_vol_world2,2020-09-01
 2020-08-25,manuf_ba_conf_pl,NA,x_vol_world2,2020-09-01
@@ -1641,8 +1688,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,manuf_ba_conf_pl,NA,x_vol_world2,2020-09-01
 2020-11-24,manuf_ba_conf_pl,NA,x_vol_world2,2020-09-01
 2020-12-01,manuf_ba_conf_pl,-0.017155092377401635,x_vol_world2,2020-09-01
-2020-07-01,manuf_orders_nl,-0.35657088525394676,x_vol_world2,2020-09-01
-2020-08-01,manuf_orders_nl,-0.1464371568764348,x_vol_world2,2020-09-01
+2020-12-08,manuf_ba_conf_pl,NA,x_vol_world2,2020-09-01
+2020-07-01,manuf_orders_nl,-0.3566221464478573,x_vol_world2,2020-09-01
+2020-08-01,manuf_orders_nl,-0.146072435654525,x_vol_world2,2020-09-01
 2020-08-07,manuf_orders_nl,0.5219821780195923,x_vol_world2,2020-09-01
 2020-08-16,manuf_orders_nl,NA,x_vol_world2,2020-09-01
 2020-08-25,manuf_orders_nl,-0.3526441067930803,x_vol_world2,2020-09-01
@@ -1660,8 +1708,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,manuf_orders_nl,NA,x_vol_world2,2020-09-01
 2020-11-24,manuf_orders_nl,NA,x_vol_world2,2020-09-01
 2020-12-01,manuf_orders_nl,0.005575716736440914,x_vol_world2,2020-09-01
-2020-07-01,ipi_mx,-1.155570894994146,x_vol_world2,2020-09-01
-2020-08-01,ipi_mx,-0.26884922345687257,x_vol_world2,2020-09-01
+2020-12-08,manuf_orders_nl,NA,x_vol_world2,2020-09-01
+2020-07-01,ipi_mx,-1.1556118541802716,x_vol_world2,2020-09-01
+2020-08-01,ipi_mx,-0.26861488597316807,x_vol_world2,2020-09-01
 2020-08-07,ipi_mx,NA,x_vol_world2,2020-09-01
 2020-08-16,ipi_mx,3.308361154789336,x_vol_world2,2020-09-01
 2020-08-25,ipi_mx,NA,x_vol_world2,2020-09-01
@@ -1679,8 +1728,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,ipi_mx,0.049765946022237426,x_vol_world2,2020-09-01
 2020-11-24,ipi_mx,NA,x_vol_world2,2020-09-01
 2020-12-01,ipi_mx,NA,x_vol_world2,2020-09-01
-2020-07-01,manuf_orders_us_2,-0.2297248920101188,x_vol_world2,2020-09-01
-2020-08-01,manuf_orders_us_2,0.6294387877311349,x_vol_world2,2020-09-01
+2020-12-08,ipi_mx,NA,x_vol_world2,2020-09-01
+2020-07-01,manuf_orders_us_2,-0.22980620774205626,x_vol_world2,2020-09-01
+2020-08-01,manuf_orders_us_2,0.629886111233618,x_vol_world2,2020-09-01
 2020-08-07,manuf_orders_us_2,0.8146713237493454,x_vol_world2,2020-09-01
 2020-08-16,manuf_orders_us_2,NA,x_vol_world2,2020-09-01
 2020-08-25,manuf_orders_us_2,NA,x_vol_world2,2020-09-01
@@ -1698,8 +1748,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,manuf_orders_us_2,NA,x_vol_world2,2020-09-01
 2020-11-24,manuf_orders_us_2,NA,x_vol_world2,2020-09-01
 2020-12-01,manuf_orders_us_2,NA,x_vol_world2,2020-09-01
-2020-07-01,container_index,0.2049499793488317,x_vol_world2,2020-09-01
-2020-08-01,container_index,0.24351757012289546,x_vol_world2,2020-09-01
+2020-12-08,manuf_orders_us_2,-0.006081719732100305,x_vol_world2,2020-09-01
+2020-07-01,container_index,0.20488683709690586,x_vol_world2,2020-09-01
+2020-08-01,container_index,0.24383498861030822,x_vol_world2,2020-09-01
 2020-08-07,container_index,0.21485059841555312,x_vol_world2,2020-09-01
 2020-08-16,container_index,NA,x_vol_world2,2020-09-01
 2020-08-25,container_index,NA,x_vol_world2,2020-09-01
@@ -1717,8 +1768,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,container_index,NA,x_vol_world2,2020-09-01
 2020-11-24,container_index,NA,x_vol_world2,2020-09-01
 2020-12-01,container_index,0.02185073781030608,x_vol_world2,2020-09-01
-2020-07-01,x_vol_ema,-0.13134214632785363,x_vol_world2,2020-09-01
-2020-08-01,x_vol_ema,0.12575933127956077,x_vol_world2,2020-09-01
+2020-12-08,container_index,NA,x_vol_world2,2020-09-01
+2020-07-01,x_vol_ema,-0.13147490395735384,x_vol_world2,2020-09-01
+2020-08-01,x_vol_ema,0.1264243996936757,x_vol_world2,2020-09-01
 2020-08-07,x_vol_ema,NA,x_vol_world2,2020-09-01
 2020-08-16,x_vol_ema,NA,x_vol_world2,2020-09-01
 2020-08-25,x_vol_ema,NA,x_vol_world2,2020-09-01
@@ -1736,8 +1788,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_vol_ema,NA,x_vol_world2,2020-09-01
 2020-11-24,x_vol_ema,NA,x_vol_world2,2020-09-01
 2020-12-01,x_vol_ema,-9.352324735488032e-4,x_vol_world2,2020-09-01
-2020-07-01,rti_val_us,-0.5861014185967297,x_vol_world2,2020-09-01
-2020-08-01,rti_val_us,1.478147280104586,x_vol_world2,2020-09-01
+2020-12-08,x_vol_ema,NA,x_vol_world2,2020-09-01
+2020-07-01,rti_val_us,-0.5861475659866426,x_vol_world2,2020-09-01
+2020-08-01,rti_val_us,1.478424360558661,x_vol_world2,2020-09-01
 2020-08-07,rti_val_us,NA,x_vol_world2,2020-09-01
 2020-08-16,rti_val_us,NA,x_vol_world2,2020-09-01
 2020-08-25,rti_val_us,NA,x_vol_world2,2020-09-01
@@ -1755,8 +1808,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,rti_val_us,NA,x_vol_world2,2020-09-01
 2020-11-24,rti_val_us,NA,x_vol_world2,2020-09-01
 2020-12-01,rti_val_us,0.009814935730483696,x_vol_world2,2020-09-01
-2020-07-01,x_it,-0.3713878574098665,x_vol_world2,2020-09-01
-2020-08-01,x_it,0.5275106731150362,x_vol_world2,2020-09-01
+2020-12-08,rti_val_us,NA,x_vol_world2,2020-09-01
+2020-07-01,x_it,-0.37143152937038676,x_vol_world2,2020-09-01
+2020-08-01,x_it,0.5277427342013639,x_vol_world2,2020-09-01
 2020-08-07,x_it,NA,x_vol_world2,2020-09-01
 2020-08-16,x_it,1.027217671764615,x_vol_world2,2020-09-01
 2020-08-25,x_it,NA,x_vol_world2,2020-09-01
@@ -1774,8 +1828,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_it,0.041847284094831266,x_vol_world2,2020-09-01
 2020-11-24,x_it,NA,x_vol_world2,2020-09-01
 2020-12-01,x_it,NA,x_vol_world2,2020-09-01
-2020-07-01,container_sg,-0.07603168971537785,x_vol_world2,2020-09-01
-2020-08-01,container_sg,0.6947210033961186,x_vol_world2,2020-09-01
+2020-12-08,x_it,NA,x_vol_world2,2020-09-01
+2020-07-01,container_sg,-0.07608918146145337,x_vol_world2,2020-09-01
+2020-08-01,container_sg,0.6950925113521215,x_vol_world2,2020-09-01
 2020-08-07,container_sg,NA,x_vol_world2,2020-09-01
 2020-08-16,container_sg,-0.11106625217806317,x_vol_world2,2020-09-01
 2020-08-25,container_sg,NA,x_vol_world2,2020-09-01
@@ -1793,8 +1848,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,container_sg,-0.012965031668352379,x_vol_world2,2020-09-01
 2020-11-24,container_sg,NA,x_vol_world2,2020-09-01
 2020-12-01,container_sg,NA,x_vol_world2,2020-09-01
-2020-07-01,x_kr,0.7210213315619601,x_vol_world2,2020-09-01
-2020-08-01,x_kr,1.7662434812290244,x_vol_world2,2020-09-01
+2020-12-08,container_sg,NA,x_vol_world2,2020-09-01
+2020-07-01,x_kr,0.7208380255994562,x_vol_world2,2020-09-01
+2020-08-01,x_kr,1.7674449631469376,x_vol_world2,2020-09-01
 2020-08-07,x_kr,NA,x_vol_world2,2020-09-01
 2020-08-16,x_kr,NA,x_vol_world2,2020-09-01
 2020-08-25,x_kr,-0.24440223924879892,x_vol_world2,2020-09-01
@@ -1812,8 +1868,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_kr,NA,x_vol_world2,2020-09-01
 2020-11-24,x_kr,NA,x_vol_world2,2020-09-01
 2020-12-01,x_kr,NA,x_vol_world2,2020-09-01
-2020-07-01,rti_vol_us,-0.46777227789527204,x_vol_world2,2020-09-01
-2020-08-01,rti_vol_us,1.1337057901734897,x_vol_world2,2020-09-01
+2020-12-08,x_kr,NA,x_vol_world2,2020-09-01
+2020-07-01,rti_vol_us,-0.4677992370170516,x_vol_world2,2020-09-01
+2020-08-01,rti_vol_us,1.1338665368692658,x_vol_world2,2020-09-01
 2020-08-07,rti_vol_us,NA,x_vol_world2,2020-09-01
 2020-08-16,rti_vol_us,NA,x_vol_world2,2020-09-01
 2020-08-25,rti_vol_us,NA,x_vol_world2,2020-09-01
@@ -1831,8 +1888,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,rti_vol_us,NA,x_vol_world2,2020-09-01
 2020-11-24,rti_vol_us,NA,x_vol_world2,2020-09-01
 2020-12-01,rti_vol_us,0.014758594329605058,x_vol_world2,2020-09-01
-2020-07-01,x_servs_jp,-9.758297309338529e-4,x_vol_world2,2020-09-01
-2020-08-01,x_servs_jp,0,x_vol_world2,2020-09-01
+2020-12-08,rti_vol_us,NA,x_vol_world2,2020-09-01
+2020-07-01,x_servs_jp,-0.007773499770906135,x_vol_world2,2020-09-01
+2020-08-01,x_servs_jp,0.14473702283143716,x_vol_world2,2020-09-01
 2020-08-07,x_servs_jp,NA,x_vol_world2,2020-09-01
 2020-08-16,x_servs_jp,0.0034815531180326874,x_vol_world2,2020-09-01
 2020-08-25,x_servs_jp,NA,x_vol_world2,2020-09-01
@@ -1850,8 +1908,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_servs_jp,NA,x_vol_world2,2020-09-01
 2020-11-24,x_servs_jp,NA,x_vol_world2,2020-09-01
 2020-12-01,x_servs_jp,NA,x_vol_world2,2020-09-01
+2020-12-08,x_servs_jp,-0.006037508851978449,x_vol_world2,2020-09-01
 2020-07-01,x_vol_world2,NA,x_vol_world2,2020-09-01
-2020-08-01,x_vol_world2,2.539064687664579e-4,x_vol_world2,2020-09-01
+2020-08-01,x_vol_world2,2.556871775680051e-4,x_vol_world2,2020-09-01
 2020-08-07,x_vol_world2,NA,x_vol_world2,2020-09-01
 2020-08-16,x_vol_world2,NA,x_vol_world2,2020-09-01
 2020-08-25,x_vol_world2,2.591232452607101e-5,x_vol_world2,2020-09-01
@@ -1869,8 +1928,9 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_vol_world2,NA,x_vol_world2,2020-09-01
 2020-11-24,x_vol_world2,NA,x_vol_world2,2020-09-01
 2020-12-01,x_vol_world2,NA,x_vol_world2,2020-09-01
+2020-12-08,x_vol_world2,NA,x_vol_world2,2020-09-01
 2020-07-01,x_world,NA,x_vol_world2,2020-09-01
-2020-08-01,x_world,3.8224142068829075e-4,x_vol_world2,2020-09-01
+2020-08-01,x_world,6.164788546212215e-4,x_vol_world2,2020-09-01
 2020-08-07,x_world,NA,x_vol_world2,2020-09-01
 2020-08-16,x_world,NA,x_vol_world2,2020-09-01
 2020-08-25,x_world,1.737582289125643e-4,x_vol_world2,2020-09-01
@@ -1888,6 +1948,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_world,NA,x_vol_world2,2020-09-01
 2020-11-24,x_world,NA,x_vol_world2,2020-09-01
 2020-12-01,x_world,NA,x_vol_world2,2020-09-01
+2020-12-08,x_world,-0.4400961851833597,x_vol_world2,2020-09-01
 2020-08-16,forecast,11.347468890732602,x_world,2020-12-01
 2020-08-25,forecast,9.704345131053147,x_world,2020-12-01
 2020-09-01,forecast,16.53817206503146,x_world,2020-12-01
@@ -1904,6 +1965,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,forecast,10.637943685218634,x_world,2020-12-01
 2020-11-24,forecast,10.58803413645417,x_world,2020-12-01
 2020-12-01,forecast,10.548557844495448,x_world,2020-12-01
+2020-12-08,forecast,15.958915134480488,x_world,2020-12-01
 2020-08-16,impact_revisions,0.7458640359189486,x_world,2020-12-01
 2020-08-25,impact_revisions,0.006386096196908664,x_world,2020-12-01
 2020-09-01,impact_revisions,-0.05872880531917202,x_world,2020-12-01
@@ -1920,6 +1982,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,impact_revisions,-0.020786975255601692,x_world,2020-12-01
 2020-11-24,impact_revisions,-0.06689102659414026,x_world,2020-12-01
 2020-12-01,impact_revisions,0.047114526332361906,x_world,2020-12-01
+2020-12-08,impact_revisions,-0.5782839003558832,x_world,2020-12-01
 2020-08-16,ipi_de,0.006412138783673391,x_world,2020-12-01
 2020-08-25,ipi_de,NA,x_world,2020-12-01
 2020-09-01,ipi_de,NA,x_world,2020-12-01
@@ -1936,6 +1999,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,ipi_de,NA,x_world,2020-12-01
 2020-11-24,ipi_de,NA,x_world,2020-12-01
 2020-12-01,ipi_de,NA,x_world,2020-12-01
+2020-12-08,ipi_de,0.001111476393466624,x_world,2020-12-01
 2020-08-16,x_it,2.777090878984074,x_world,2020-12-01
 2020-08-25,x_it,NA,x_world,2020-12-01
 2020-09-01,x_it,NA,x_world,2020-12-01
@@ -1952,6 +2016,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_it,0.07201912844882935,x_world,2020-12-01
 2020-11-24,x_it,NA,x_world,2020-12-01
 2020-12-01,x_it,NA,x_world,2020-12-01
+2020-12-08,x_it,NA,x_world,2020-12-01
 2020-08-16,ipi_ru,NA,x_world,2020-12-01
 2020-08-25,ipi_ru,NA,x_world,2020-12-01
 2020-09-01,ipi_ru,NA,x_world,2020-12-01
@@ -1968,6 +2033,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,ipi_ru,-0.6432501049628002,x_world,2020-12-01
 2020-11-24,ipi_ru,NA,x_world,2020-12-01
 2020-12-01,ipi_ru,NA,x_world,2020-12-01
+2020-12-08,ipi_ru,NA,x_world,2020-12-01
 2020-08-16,x_br,0.049168610476435025,x_world,2020-12-01
 2020-08-25,x_br,NA,x_world,2020-12-01
 2020-09-01,x_br,NA,x_world,2020-12-01
@@ -1984,6 +2050,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_br,NA,x_world,2020-12-01
 2020-11-24,x_br,NA,x_world,2020-12-01
 2020-12-01,x_br,NA,x_world,2020-12-01
+2020-12-08,x_br,0.033509743289844636,x_world,2020-12-01
 2020-08-16,x_vol_ez,NA,x_world,2020-12-01
 2020-08-25,x_vol_ez,NA,x_world,2020-12-01
 2020-09-01,x_vol_ez,0.0032661833135722443,x_world,2020-12-01
@@ -2000,6 +2067,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_vol_ez,NA,x_world,2020-12-01
 2020-11-24,x_vol_ez,NA,x_world,2020-12-01
 2020-12-01,x_vol_ez,4.272734220525258e-4,x_world,2020-12-01
+2020-12-08,x_vol_ez,NA,x_world,2020-12-01
 2020-08-16,rti_vol_fr,NA,x_world,2020-12-01
 2020-08-25,rti_vol_fr,NA,x_world,2020-12-01
 2020-09-01,rti_vol_fr,0.15995093383199216,x_world,2020-12-01
@@ -2016,6 +2084,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,rti_vol_fr,NA,x_world,2020-12-01
 2020-11-24,rti_vol_fr,NA,x_world,2020-12-01
 2020-12-01,rti_vol_fr,0.022086916128207887,x_world,2020-12-01
+2020-12-08,rti_vol_fr,NA,x_world,2020-12-01
 2020-08-16,constr_ca,NA,x_world,2020-12-01
 2020-08-25,constr_ca,NA,x_world,2020-12-01
 2020-09-01,constr_ca,0.6154742570944964,x_world,2020-12-01
@@ -2032,6 +2101,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,constr_ca,NA,x_world,2020-12-01
 2020-11-24,constr_ca,NA,x_world,2020-12-01
 2020-12-01,constr_ca,NA,x_world,2020-12-01
+2020-12-08,constr_ca,-0.18137818252908894,x_world,2020-12-01
 2020-08-16,x_nl,1.0765535926049028,x_world,2020-12-01
 2020-08-25,x_nl,NA,x_world,2020-12-01
 2020-09-01,x_nl,NA,x_world,2020-12-01
@@ -2048,6 +2118,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_nl,-0.4479064582131433,x_world,2020-12-01
 2020-11-24,x_nl,NA,x_world,2020-12-01
 2020-12-01,x_nl,NA,x_world,2020-12-01
+2020-12-08,x_nl,NA,x_world,2020-12-01
 2020-08-16,bci_nl,NA,x_world,2020-12-01
 2020-08-25,bci_nl,NA,x_world,2020-12-01
 2020-09-01,bci_nl,NA,x_world,2020-12-01
@@ -2064,6 +2135,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,bci_nl,NA,x_world,2020-12-01
 2020-11-24,bci_nl,NA,x_world,2020-12-01
 2020-12-01,bci_nl,NA,x_world,2020-12-01
+2020-12-08,bci_nl,-0.15055704435859768,x_world,2020-12-01
 2020-08-16,x_servs_ez,NA,x_world,2020-12-01
 2020-08-25,x_servs_ez,0.03160897418126911,x_world,2020-12-01
 2020-09-01,x_servs_ez,NA,x_world,2020-12-01
@@ -2080,6 +2152,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_servs_ez,NA,x_world,2020-12-01
 2020-11-24,x_servs_ez,0.06784878555113484,x_world,2020-12-01
 2020-12-01,x_servs_ez,NA,x_world,2020-12-01
+2020-12-08,x_servs_ez,NA,x_world,2020-12-01
 2020-08-16,x_jp,NA,x_world,2020-12-01
 2020-08-25,x_jp,0.04439840570724814,x_world,2020-12-01
 2020-09-01,x_jp,NA,x_world,2020-12-01
@@ -2096,6 +2169,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_jp,NA,x_world,2020-12-01
 2020-11-24,x_jp,-0.05086730772146058,x_world,2020-12-01
 2020-12-01,x_jp,NA,x_world,2020-12-01
+2020-12-08,x_jp,NA,x_world,2020-12-01
 2020-08-16,air_freight_hkg,-0.19327678119022346,x_world,2020-12-01
 2020-08-25,air_freight_hkg,NA,x_world,2020-12-01
 2020-09-01,air_freight_hkg,NA,x_world,2020-12-01
@@ -2112,6 +2186,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,air_freight_hkg,-0.2598593179730956,x_world,2020-12-01
 2020-11-24,air_freight_hkg,NA,x_world,2020-12-01
 2020-12-01,air_freight_hkg,NA,x_world,2020-12-01
+2020-12-08,air_freight_hkg,NA,x_world,2020-12-01
 2020-08-16,bci_jp,NA,x_world,2020-12-01
 2020-08-25,bci_jp,NA,x_world,2020-12-01
 2020-09-01,bci_jp,NA,x_world,2020-12-01
@@ -2128,6 +2203,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,bci_jp,NA,x_world,2020-12-01
 2020-11-24,bci_jp,NA,x_world,2020-12-01
 2020-12-01,bci_jp,NA,x_world,2020-12-01
+2020-12-08,bci_jp,NA,x_world,2020-12-01
 2020-08-16,export_orders_de,0.7454845333946507,x_world,2020-12-01
 2020-08-25,export_orders_de,NA,x_world,2020-12-01
 2020-09-01,export_orders_de,0.7896574004651475,x_world,2020-12-01
@@ -2144,6 +2220,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,export_orders_de,NA,x_world,2020-12-01
 2020-11-24,export_orders_de,NA,x_world,2020-12-01
 2020-12-01,export_orders_de,0.37500201001839467,x_world,2020-12-01
+2020-12-08,export_orders_de,NA,x_world,2020-12-01
 2020-08-16,x_vol_cis,NA,x_world,2020-12-01
 2020-08-25,x_vol_cis,NA,x_world,2020-12-01
 2020-09-01,x_vol_cis,-0.10115479217895876,x_world,2020-12-01
@@ -2160,6 +2237,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_vol_cis,NA,x_world,2020-12-01
 2020-11-24,x_vol_cis,NA,x_world,2020-12-01
 2020-12-01,x_vol_cis,0.040935321420797685,x_world,2020-12-01
+2020-12-08,x_vol_cis,NA,x_world,2020-12-01
 2020-08-16,x_world,NA,x_world,2020-12-01
 2020-08-25,x_world,0.7226653344098628,x_world,2020-12-01
 2020-09-01,x_world,NA,x_world,2020-12-01
@@ -2176,6 +2254,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_world,NA,x_world,2020-12-01
 2020-11-24,x_world,NA,x_world,2020-12-01
 2020-12-01,x_world,NA,x_world,2020-12-01
+2020-12-08,x_world,6.285955197545294,x_world,2020-12-01
 2020-08-16,fc_x_us,NA,x_world,2020-12-01
 2020-08-25,fc_x_us,-2.4481825701747533,x_world,2020-12-01
 2020-09-01,fc_x_us,5.425361756771261,x_world,2020-12-01
@@ -2192,6 +2271,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,fc_x_us,NA,x_world,2020-12-01
 2020-11-24,fc_x_us,NA,x_world,2020-12-01
 2020-12-01,fc_x_us,-0.5250423392805338,x_world,2020-12-01
+2020-12-08,fc_x_us,NA,x_world,2020-12-01
 2020-08-16,forecast,17.658595713415128,x_servs_world,2020-12-01
 2020-08-25,forecast,16.014554884808984,x_servs_world,2020-12-01
 2020-09-01,forecast,18.11038127007684,x_servs_world,2020-12-01
@@ -2208,6 +2288,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,forecast,5.598172670541597,x_servs_world,2020-12-01
 2020-11-24,forecast,5.598172670541597,x_servs_world,2020-12-01
 2020-12-01,forecast,5.599573079540075,x_servs_world,2020-12-01
+2020-12-08,forecast,5.169765293512116,x_servs_world,2020-12-01
 2020-08-16,impact_revisions,1.0608033515213249,x_servs_world,2020-12-01
 2020-08-25,impact_revisions,-0.1738716720108252,x_servs_world,2020-12-01
 2020-09-01,impact_revisions,-0.043286883049817315,x_servs_world,2020-12-01
@@ -2224,6 +2305,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,impact_revisions,0.022744069682983925,x_servs_world,2020-12-01
 2020-11-24,impact_revisions,0,x_servs_world,2020-12-01
 2020-12-01,impact_revisions,0.05422422605189936,x_servs_world,2020-12-01
+2020-12-08,impact_revisions,-0.051937880965990946,x_servs_world,2020-12-01
 2020-08-16,x_nl,4.058013022283126e-4,x_servs_world,2020-12-01
 2020-08-25,x_nl,NA,x_servs_world,2020-12-01
 2020-09-01,x_nl,NA,x_servs_world,2020-12-01
@@ -2240,6 +2322,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_nl,-7.42503261353903e-4,x_servs_world,2020-12-01
 2020-11-24,x_nl,NA,x_servs_world,2020-12-01
 2020-12-01,x_nl,NA,x_servs_world,2020-12-01
+2020-12-08,x_nl,NA,x_servs_world,2020-12-01
 2020-08-16,x_servs_us,NA,x_servs_world,2020-12-01
 2020-08-25,x_servs_us,NA,x_servs_world,2020-12-01
 2020-09-01,x_servs_us,NA,x_servs_world,2020-12-01
@@ -2256,6 +2339,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_servs_us,NA,x_servs_world,2020-12-01
 2020-11-24,x_servs_us,NA,x_servs_world,2020-12-01
 2020-12-01,x_servs_us,NA,x_servs_world,2020-12-01
+2020-12-08,x_servs_us,-2.6826196648751914e-4,x_servs_world,2020-12-01
 2020-08-16,p_manuf,NA,x_servs_world,2020-12-01
 2020-08-25,p_manuf,NA,x_servs_world,2020-12-01
 2020-09-01,p_manuf,-0.0015165276476882773,x_servs_world,2020-12-01
@@ -2272,6 +2356,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,p_manuf,NA,x_servs_world,2020-12-01
 2020-11-24,p_manuf,NA,x_servs_world,2020-12-01
 2020-12-01,p_manuf,NA,x_servs_world,2020-12-01
+2020-12-08,p_manuf,-0.04352567320409513,x_servs_world,2020-12-01
 2020-08-16,bci_nl,NA,x_servs_world,2020-12-01
 2020-08-25,bci_nl,NA,x_servs_world,2020-12-01
 2020-09-01,bci_nl,NA,x_servs_world,2020-12-01
@@ -2288,6 +2373,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,bci_nl,NA,x_servs_world,2020-12-01
 2020-11-24,bci_nl,NA,x_servs_world,2020-12-01
 2020-12-01,bci_nl,NA,x_servs_world,2020-12-01
+2020-12-08,bci_nl,0.2612986218571824,x_servs_world,2020-12-01
 2020-08-16,manuf_orders_us_2,NA,x_servs_world,2020-12-01
 2020-08-25,manuf_orders_us_2,NA,x_servs_world,2020-12-01
 2020-09-01,manuf_orders_us_2,NA,x_servs_world,2020-12-01
@@ -2304,6 +2390,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,manuf_orders_us_2,NA,x_servs_world,2020-12-01
 2020-11-24,manuf_orders_us_2,NA,x_servs_world,2020-12-01
 2020-12-01,manuf_orders_us_2,NA,x_servs_world,2020-12-01
+2020-12-08,manuf_orders_us_2,-0.0985160602041667,x_servs_world,2020-12-01
 2020-08-16,rti_val_fr,NA,x_servs_world,2020-12-01
 2020-08-25,rti_val_fr,NA,x_servs_world,2020-12-01
 2020-09-01,rti_val_fr,0.10533862721988871,x_servs_world,2020-12-01
@@ -2320,6 +2407,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,rti_val_fr,NA,x_servs_world,2020-12-01
 2020-11-24,rti_val_fr,NA,x_servs_world,2020-12-01
 2020-12-01,rti_val_fr,-0.014086361932163949,x_servs_world,2020-12-01
+2020-12-08,rti_val_fr,NA,x_servs_world,2020-12-01
 2020-08-16,ipi_jp,NA,x_servs_world,2020-12-01
 2020-08-25,ipi_jp,NA,x_servs_world,2020-12-01
 2020-09-01,ipi_jp,1.501070886544077e-4,x_servs_world,2020-12-01
@@ -2336,6 +2424,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,ipi_jp,NA,x_servs_world,2020-12-01
 2020-11-24,ipi_jp,NA,x_servs_world,2020-12-01
 2020-12-01,ipi_jp,3.005026226062004e-4,x_servs_world,2020-12-01
+2020-12-08,ipi_jp,NA,x_servs_world,2020-12-01
 2020-08-16,manuf_emp_fut_it,NA,x_servs_world,2020-12-01
 2020-08-25,manuf_emp_fut_it,NA,x_servs_world,2020-12-01
 2020-09-01,manuf_emp_fut_it,-0.13095706020135367,x_servs_world,2020-12-01
@@ -2352,6 +2441,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,manuf_emp_fut_it,NA,x_servs_world,2020-12-01
 2020-11-24,manuf_emp_fut_it,NA,x_servs_world,2020-12-01
 2020-12-01,manuf_emp_fut_it,-0.1396154887958558,x_servs_world,2020-12-01
+2020-12-08,manuf_emp_fut_it,NA,x_servs_world,2020-12-01
 2020-08-16,ipi_eu27,1.1719314981758315,x_servs_world,2020-12-01
 2020-08-25,ipi_eu27,NA,x_servs_world,2020-12-01
 2020-09-01,ipi_eu27,NA,x_servs_world,2020-12-01
@@ -2368,6 +2458,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,ipi_eu27,-0.5994153411974101,x_servs_world,2020-12-01
 2020-11-24,ipi_eu27,NA,x_servs_world,2020-12-01
 2020-12-01,ipi_eu27,NA,x_servs_world,2020-12-01
+2020-12-08,ipi_eu27,NA,x_servs_world,2020-12-01
 2020-08-16,x_vol_ez,NA,x_servs_world,2020-12-01
 2020-08-25,x_vol_ez,NA,x_servs_world,2020-12-01
 2020-09-01,x_vol_ez,-0.2024638297929081,x_servs_world,2020-12-01
@@ -2384,6 +2475,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_vol_ez,NA,x_servs_world,2020-12-01
 2020-11-24,x_vol_ez,NA,x_servs_world,2020-12-01
 2020-12-01,x_vol_ez,-0.03070907865207916,x_servs_world,2020-12-01
+2020-12-08,x_vol_ez,NA,x_servs_world,2020-12-01
 2020-08-16,manuf_orders_it,NA,x_servs_world,2020-12-01
 2020-08-25,manuf_orders_it,NA,x_servs_world,2020-12-01
 2020-09-01,manuf_orders_it,-0.12503894542191504,x_servs_world,2020-12-01
@@ -2400,6 +2492,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,manuf_orders_it,NA,x_servs_world,2020-12-01
 2020-11-24,manuf_orders_it,NA,x_servs_world,2020-12-01
 2020-12-01,manuf_orders_it,-0.1832920855968809,x_servs_world,2020-12-01
+2020-12-08,manuf_orders_it,NA,x_servs_world,2020-12-01
 2020-08-16,export_orders_it,NA,x_servs_world,2020-12-01
 2020-08-25,export_orders_it,NA,x_servs_world,2020-12-01
 2020-09-01,export_orders_it,-0.1219777225669611,x_servs_world,2020-12-01
@@ -2416,6 +2509,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,export_orders_it,NA,x_servs_world,2020-12-01
 2020-11-24,export_orders_it,NA,x_servs_world,2020-12-01
 2020-12-01,export_orders_it,-0.17926198352206746,x_servs_world,2020-12-01
+2020-12-08,export_orders_it,NA,x_servs_world,2020-12-01
 2020-08-16,cci_br,NA,x_servs_world,2020-12-01
 2020-08-25,cci_br,NA,x_servs_world,2020-12-01
 2020-09-01,cci_br,NA,x_servs_world,2020-12-01
@@ -2432,6 +2526,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,cci_br,NA,x_servs_world,2020-12-01
 2020-11-24,cci_br,NA,x_servs_world,2020-12-01
 2020-12-01,cci_br,-1.5135962050339647e-4,x_servs_world,2020-12-01
+2020-12-08,cci_br,NA,x_servs_world,2020-12-01
 2020-08-16,rti_val_es,NA,x_servs_world,2020-12-01
 2020-08-25,rti_val_es,NA,x_servs_world,2020-12-01
 2020-09-01,rti_val_es,0.11554223722209524,x_servs_world,2020-12-01
@@ -2448,6 +2543,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,rti_val_es,NA,x_servs_world,2020-12-01
 2020-11-24,rti_val_es,NA,x_servs_world,2020-12-01
 2020-12-01,rti_val_es,-0.03001290654374837,x_servs_world,2020-12-01
+2020-12-08,rti_val_es,NA,x_servs_world,2020-12-01
 2020-08-16,export_orders_uk,-0.03030984517376789,x_servs_world,2020-12-01
 2020-08-25,export_orders_uk,NA,x_servs_world,2020-12-01
 2020-09-01,export_orders_uk,-0.15460905991190935,x_servs_world,2020-12-01
@@ -2464,6 +2560,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,export_orders_uk,NA,x_servs_world,2020-12-01
 2020-11-24,export_orders_uk,NA,x_servs_world,2020-12-01
 2020-12-01,export_orders_uk,-0.06080852443433096,x_servs_world,2020-12-01
+2020-12-08,export_orders_uk,NA,x_servs_world,2020-12-01
 2020-08-16,x_servs_world,NA,x_servs_world,2020-12-01
 2020-08-25,x_servs_world,-0.512282604955706,x_servs_world,2020-12-01
 2020-09-01,x_servs_world,NA,x_servs_world,2020-12-01
@@ -2480,6 +2577,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_servs_world,NA,x_servs_world,2020-12-01
 2020-11-24,x_servs_world,NA,x_servs_world,2020-12-01
 2020-12-01,x_servs_world,NA,x_servs_world,2020-12-01
+2020-12-08,x_servs_world,NA,x_servs_world,2020-12-01
 2020-08-16,fc_x_us,NA,x_servs_world,2020-12-01
 2020-08-25,fc_x_us,-0.23746622458034827,x_servs_world,2020-12-01
 2020-09-01,fc_x_us,-2.064835044287933,x_servs_world,2020-12-01
@@ -2496,6 +2594,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,fc_x_us,NA,x_servs_world,2020-12-01
 2020-11-24,fc_x_us,NA,x_servs_world,2020-12-01
 2020-12-01,fc_x_us,0.4099725694308277,x_servs_world,2020-12-01
+2020-12-08,fc_x_us,NA,x_servs_world,2020-12-01
 2020-08-16,fc_x_de,NA,x_servs_world,2020-12-01
 2020-08-25,fc_x_de,-0,x_servs_world,2020-12-01
 2020-09-01,fc_x_de,3.0808335363486004,x_servs_world,2020-12-01
@@ -2512,6 +2611,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,fc_x_de,NA,x_servs_world,2020-12-01
 2020-11-24,fc_x_de,NA,x_servs_world,2020-12-01
 2020-12-01,fc_x_de,-0.00879447153606687,x_servs_world,2020-12-01
+2020-12-08,fc_x_de,NA,x_servs_world,2020-12-01
 2020-08-16,fc_gdp_us,NA,x_servs_world,2020-12-01
 2020-08-25,fc_gdp_us,-0.1559172792490761,x_servs_world,2020-12-01
 2020-09-01,fc_gdp_us,1.6386469502689405,x_servs_world,2020-12-01
@@ -2528,6 +2628,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,fc_gdp_us,NA,x_servs_world,2020-12-01
 2020-11-24,fc_gdp_us,NA,x_servs_world,2020-12-01
 2020-12-01,fc_gdp_us,0.1836353715268459,x_servs_world,2020-12-01
+2020-12-08,fc_gdp_us,NA,x_servs_world,2020-12-01
 2020-08-16,x_world,NA,x_servs_world,2020-12-01
 2020-08-25,x_world,-0.1584475962453243,x_servs_world,2020-12-01
 2020-09-01,x_world,NA,x_servs_world,2020-12-01
@@ -2544,6 +2645,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_world,NA,x_servs_world,2020-12-01
 2020-11-24,x_world,NA,x_servs_world,2020-12-01
 2020-12-01,x_world,NA,x_servs_world,2020-12-01
+2020-12-08,x_world,-0.4968585315443983,x_servs_world,2020-12-01
 2020-08-16,x_servs_sg,NA,x_servs_world,2020-12-01
 2020-08-25,x_servs_sg,0.015496434429261343,x_servs_world,2020-12-01
 2020-09-01,x_servs_sg,NA,x_servs_world,2020-12-01
@@ -2560,6 +2662,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_servs_sg,NA,x_servs_world,2020-12-01
 2020-11-24,x_servs_sg,NA,x_servs_world,2020-12-01
 2020-12-01,x_servs_sg,NA,x_servs_world,2020-12-01
+2020-12-08,x_servs_sg,NA,x_servs_world,2020-12-01
 2020-08-16,forecast,5.1196739975970065,x_vol_world2,2020-12-01
 2020-08-25,forecast,4.513553275711532,x_vol_world2,2020-12-01
 2020-09-01,forecast,5.619525995975992,x_vol_world2,2020-12-01
@@ -2576,6 +2679,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,forecast,3.7103533322325277,x_vol_world2,2020-12-01
 2020-11-24,forecast,3.8045763976909286,x_vol_world2,2020-12-01
 2020-12-01,forecast,3.5784798659249035,x_vol_world2,2020-12-01
+2020-12-08,forecast,3.2751541843912464,x_vol_world2,2020-12-01
 2020-08-16,impact_revisions,-0.036516475169882934,x_vol_world2,2020-12-01
 2020-08-25,impact_revisions,8.480347957223744e-4,x_vol_world2,2020-12-01
 2020-09-01,impact_revisions,-0.012684798518342033,x_vol_world2,2020-12-01
@@ -2592,6 +2696,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,impact_revisions,-0.0014913290551053782,x_vol_world2,2020-12-01
 2020-11-24,impact_revisions,0.02474654084333658,x_vol_world2,2020-12-01
 2020-12-01,impact_revisions,-0.03241979925267188,x_vol_world2,2020-12-01
+2020-12-08,impact_revisions,0.012572413346639832,x_vol_world2,2020-12-01
 2020-08-16,bci_nl,NA,x_vol_world2,2020-12-01
 2020-08-25,bci_nl,NA,x_vol_world2,2020-12-01
 2020-09-01,bci_nl,NA,x_vol_world2,2020-12-01
@@ -2608,6 +2713,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,bci_nl,NA,x_vol_world2,2020-12-01
 2020-11-24,bci_nl,NA,x_vol_world2,2020-12-01
 2020-12-01,bci_nl,NA,x_vol_world2,2020-12-01
+2020-12-08,bci_nl,-3.5831606270855424e-4,x_vol_world2,2020-12-01
 2020-08-16,x_vol_jp,NA,x_vol_world2,2020-12-01
 2020-08-25,x_vol_jp,NA,x_vol_world2,2020-12-01
 2020-09-01,x_vol_jp,-0.06991880076509333,x_vol_world2,2020-12-01
@@ -2624,6 +2730,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_vol_jp,NA,x_vol_world2,2020-12-01
 2020-11-24,x_vol_jp,NA,x_vol_world2,2020-12-01
 2020-12-01,x_vol_jp,0.07502312781860002,x_vol_world2,2020-12-01
+2020-12-08,x_vol_jp,NA,x_vol_world2,2020-12-01
 2020-08-16,x_jp,NA,x_vol_world2,2020-12-01
 2020-08-25,x_jp,-0.18396727064874394,x_vol_world2,2020-12-01
 2020-09-01,x_jp,NA,x_vol_world2,2020-12-01
@@ -2640,6 +2747,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_jp,NA,x_vol_world2,2020-12-01
 2020-11-24,x_jp,0.06947652461506455,x_vol_world2,2020-12-01
 2020-12-01,x_jp,NA,x_vol_world2,2020-12-01
+2020-12-08,x_jp,NA,x_vol_world2,2020-12-01
 2020-08-16,manuf_ba_conf_pl,NA,x_vol_world2,2020-12-01
 2020-08-25,manuf_ba_conf_pl,NA,x_vol_world2,2020-12-01
 2020-09-01,manuf_ba_conf_pl,0.25109313588035886,x_vol_world2,2020-12-01
@@ -2656,6 +2764,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,manuf_ba_conf_pl,NA,x_vol_world2,2020-12-01
 2020-11-24,manuf_ba_conf_pl,NA,x_vol_world2,2020-12-01
 2020-12-01,manuf_ba_conf_pl,-0.8291813621428432,x_vol_world2,2020-12-01
+2020-12-08,manuf_ba_conf_pl,NA,x_vol_world2,2020-12-01
 2020-08-16,manuf_orders_nl,NA,x_vol_world2,2020-12-01
 2020-08-25,manuf_orders_nl,-0.25796784169989045,x_vol_world2,2020-12-01
 2020-09-01,manuf_orders_nl,0.47321144759395384,x_vol_world2,2020-12-01
@@ -2672,6 +2781,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,manuf_orders_nl,NA,x_vol_world2,2020-12-01
 2020-11-24,manuf_orders_nl,NA,x_vol_world2,2020-12-01
 2020-12-01,manuf_orders_nl,0.28240361708018424,x_vol_world2,2020-12-01
+2020-12-08,manuf_orders_nl,NA,x_vol_world2,2020-12-01
 2020-08-16,ipi_mx,1.5609977758182394,x_vol_world2,2020-12-01
 2020-08-25,ipi_mx,NA,x_vol_world2,2020-12-01
 2020-09-01,ipi_mx,NA,x_vol_world2,2020-12-01
@@ -2688,6 +2798,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,ipi_mx,0.12816163621216856,x_vol_world2,2020-12-01
 2020-11-24,ipi_mx,NA,x_vol_world2,2020-12-01
 2020-12-01,ipi_mx,NA,x_vol_world2,2020-12-01
+2020-12-08,ipi_mx,NA,x_vol_world2,2020-12-01
 2020-08-16,manuf_orders_us_2,NA,x_vol_world2,2020-12-01
 2020-08-25,manuf_orders_us_2,NA,x_vol_world2,2020-12-01
 2020-09-01,manuf_orders_us_2,NA,x_vol_world2,2020-12-01
@@ -2704,6 +2815,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,manuf_orders_us_2,NA,x_vol_world2,2020-12-01
 2020-11-24,manuf_orders_us_2,NA,x_vol_world2,2020-12-01
 2020-12-01,manuf_orders_us_2,NA,x_vol_world2,2020-12-01
+2020-12-08,manuf_orders_us_2,-0.0983684980104315,x_vol_world2,2020-12-01
 2020-08-16,container_index,NA,x_vol_world2,2020-12-01
 2020-08-25,container_index,NA,x_vol_world2,2020-12-01
 2020-09-01,container_index,0.18152803884435958,x_vol_world2,2020-12-01
@@ -2720,6 +2832,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,container_index,NA,x_vol_world2,2020-12-01
 2020-11-24,container_index,NA,x_vol_world2,2020-12-01
 2020-12-01,container_index,0.2253280629451004,x_vol_world2,2020-12-01
+2020-12-08,container_index,NA,x_vol_world2,2020-12-01
 2020-08-16,x_vol_ema,NA,x_vol_world2,2020-12-01
 2020-08-25,x_vol_ema,NA,x_vol_world2,2020-12-01
 2020-09-01,x_vol_ema,-0.01629994128978615,x_vol_world2,2020-12-01
@@ -2736,6 +2849,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_vol_ema,NA,x_vol_world2,2020-12-01
 2020-11-24,x_vol_ema,NA,x_vol_world2,2020-12-01
 2020-12-01,x_vol_ema,-0.001637164604537878,x_vol_world2,2020-12-01
+2020-12-08,x_vol_ema,NA,x_vol_world2,2020-12-01
 2020-08-16,rti_val_us,NA,x_vol_world2,2020-12-01
 2020-08-25,rti_val_us,NA,x_vol_world2,2020-12-01
 2020-09-01,rti_val_us,0.1631284442619387,x_vol_world2,2020-12-01
@@ -2752,6 +2866,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,rti_val_us,NA,x_vol_world2,2020-12-01
 2020-11-24,rti_val_us,NA,x_vol_world2,2020-12-01
 2020-12-01,rti_val_us,0.021817879026089403,x_vol_world2,2020-12-01
+2020-12-08,rti_val_us,NA,x_vol_world2,2020-12-01
 2020-08-16,x_it,0.4786683279820336,x_vol_world2,2020-12-01
 2020-08-25,x_it,NA,x_vol_world2,2020-12-01
 2020-09-01,x_it,NA,x_vol_world2,2020-12-01
@@ -2768,6 +2883,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_it,0.09977684203687366,x_vol_world2,2020-12-01
 2020-11-24,x_it,NA,x_vol_world2,2020-12-01
 2020-12-01,x_it,NA,x_vol_world2,2020-12-01
+2020-12-08,x_it,NA,x_vol_world2,2020-12-01
 2020-08-16,container_sg,-0.07851791890513014,x_vol_world2,2020-12-01
 2020-08-25,container_sg,NA,x_vol_world2,2020-12-01
 2020-09-01,container_sg,NA,x_vol_world2,2020-12-01
@@ -2784,6 +2900,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,container_sg,-0.1539309567664993,x_vol_world2,2020-12-01
 2020-11-24,container_sg,NA,x_vol_world2,2020-12-01
 2020-12-01,container_sg,NA,x_vol_world2,2020-12-01
+2020-12-08,container_sg,NA,x_vol_world2,2020-12-01
 2020-08-16,x_kr,NA,x_vol_world2,2020-12-01
 2020-08-25,x_kr,-0.16506830337393477,x_vol_world2,2020-12-01
 2020-09-01,x_kr,NA,x_vol_world2,2020-12-01
@@ -2800,6 +2917,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_kr,NA,x_vol_world2,2020-12-01
 2020-11-24,x_kr,NA,x_vol_world2,2020-12-01
 2020-12-01,x_kr,NA,x_vol_world2,2020-12-01
+2020-12-08,x_kr,NA,x_vol_world2,2020-12-01
 2020-08-16,rti_vol_us,NA,x_vol_world2,2020-12-01
 2020-08-25,rti_vol_us,NA,x_vol_world2,2020-12-01
 2020-09-01,rti_vol_us,0.1359151942570642,x_vol_world2,2020-12-01
@@ -2816,6 +2934,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,rti_vol_us,NA,x_vol_world2,2020-12-01
 2020-11-24,rti_vol_us,NA,x_vol_world2,2020-12-01
 2020-12-01,rti_vol_us,0.03256910736405454,x_vol_world2,2020-12-01
+2020-12-08,rti_vol_us,NA,x_vol_world2,2020-12-01
 2020-08-16,x_servs_jp,0.001607675837921265,x_vol_world2,2020-12-01
 2020-08-25,x_servs_jp,NA,x_vol_world2,2020-12-01
 2020-09-01,x_servs_jp,NA,x_vol_world2,2020-12-01
@@ -2832,6 +2951,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_servs_jp,NA,x_vol_world2,2020-12-01
 2020-11-24,x_servs_jp,NA,x_vol_world2,2020-12-01
 2020-12-01,x_servs_jp,NA,x_vol_world2,2020-12-01
+2020-12-08,x_servs_jp,-0.08202327802937742,x_vol_world2,2020-12-01
 2020-08-16,x_vol_world2,NA,x_vol_world2,2020-12-01
 2020-08-25,x_vol_world2,3.668982015248505e-6,x_vol_world2,2020-12-01
 2020-09-01,x_vol_world2,NA,x_vol_world2,2020-12-01
@@ -2848,6 +2968,7 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_vol_world2,NA,x_vol_world2,2020-12-01
 2020-11-24,x_vol_world2,NA,x_vol_world2,2020-12-01
 2020-12-01,x_vol_world2,NA,x_vol_world2,2020-12-01
+2020-12-08,x_vol_world2,NA,x_vol_world2,2020-12-01
 2020-08-16,x_world,NA,x_vol_world2,2020-12-01
 2020-08-25,x_world,3.099005936126157e-5,x_vol_world2,2020-12-01
 2020-09-01,x_world,NA,x_vol_world2,2020-12-01
@@ -2864,3 +2985,4 @@ date_forecast,series,value,target,target_period
 2020-11-17,x_world,NA,x_vol_world2,2020-12-01
 2020-11-24,x_world,NA,x_vol_world2,2020-12-01
 2020-12-01,x_world,NA,x_vol_world2,2020-12-01
+2020-12-08,x_world,-0.13514800277777966,x_vol_world2,2020-12-01

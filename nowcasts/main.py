@@ -14,19 +14,19 @@ import source.helper as helper
 # commentary
 commentary = """
 <p>
-<em><strong style="font-size:20px">01 December 2020</strong></em>
+<em><strong style="font-size:20px">08 December 2020</strong></em>
 <br><br>
 <strong>Q3 2020</strong>
 <ul>
-	<li><strong><em>Total merchandise exports</em></strong>: No significant change to the forecast, strong recovery still expected.</li>
+	<li><strong><em>Total merchandise exports</em></strong>: Actuals released, stronger than expected growth of 20.13%, compared with a nowcasted value of 12.83%.</li>
 	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: No significant change to the forecast, strong recovery still expected.</li>
 	<li><strong><em>Exports of services, world</em></strong>: No significant change to the forecast, services recovery still seems to be the weakest in the third quarter.</li>
 </ul>
 <strong>Q4 2020</strong>
 <ul>
-	<li><strong><em>Total merchandise exports</em></strong>: Minimal week on week change, very slight negative revision.</li>
-	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: Slight negative revision, mostly due to numbers from the business activity confidence indicator in Poland.</li>
-	<li><strong><em>Exports of services, world</em></strong>: Negative numbers from Europe cancelled out by numbers from the United States.</li>
+	<li><strong><em>Total merchandise exports</em></strong>: Drastic revision upwards due to better than expected Q3 performance.</li>
+	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: Slight downwards revision.</li>
+	<li><strong><em>Exports of services, world</em></strong>: Minimal change in the nowcast.</li>
 </ul>
 </p>
 """
