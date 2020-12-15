@@ -14,19 +14,19 @@ import source.helper as helper
 # commentary
 commentary = """
 <p>
-<em><strong style="font-size:20px">08 December 2020</strong></em>
+<em><strong style="font-size:20px">15 December 2020</strong></em>
 <br><br>
-<strong>Q3 2020</strong>
-<ul>
-	<li><strong><em>Total merchandise exports</em></strong>: Actuals released, stronger than expected growth of 20.13%, compared with a nowcasted value of 12.83%.</li>
-	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: No significant change to the forecast, strong recovery still expected.</li>
-	<li><strong><em>Exports of services, world</em></strong>: Upward revision due to Q3 GDP and export volume revisions from the US and Germany.</li>
-</ul>
 <strong>Q4 2020</strong>
 <ul>
-	<li><strong><em>Total merchandise exports</em></strong>: Upwards revision due to better than anticipated Q3 actuals, slightly mitigated by downard revisions in US export volumes Q4 forecasts.</li>
-	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: Slight downwards revision.</li>
-	<li><strong><em>Exports of services, world</em></strong>: Strong downward revision due to revisions in GDP and export volume revisions in Germany and the US.</li>
+	<li><strong><em>Total merchandise exports</em></strong>: No major revisions.</li>
+	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: Slight downwards revision due to release on Singapore container throughput.</li>
+	<li><strong><em>Exports of services, world</em></strong>: Slight upwards revision due to positive EU industrial production index and data revisions.</li>
+</ul>
+<strong>Q1 2021</strong>
+<ul>
+	<li><strong><em>Total merchandise exports</em></strong>: Continued, but much slower, growth nowcast.</li>
+	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: Very slight growth nowcast.</li>
+	<li><strong><em>Exports of services, world</em></strong>: After anemic Q4 nowcasted growth, contraction potentially anticipated again in Q1 2021.</li>
 </ul>
 </p>
 """
