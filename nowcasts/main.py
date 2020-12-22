@@ -14,19 +14,19 @@ import source.helper as helper
 # commentary
 commentary = """
 <p>
-<em><strong style="font-size:20px">15 December 2020</strong></em>
+<em><strong style="font-size:20px">22 December 2020</strong></em>
 <br><br>
 <strong>Q4 2020</strong>
 <ul>
 	<li><strong><em>Total merchandise exports</em></strong>: No major revisions.</li>
-	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: Slight downwards revision due to release on Singapore container throughput.</li>
-	<li><strong><em>Exports of services, world</em></strong>: Slight upwards revision due to positive EU industrial production index and data revisions.</li>
+	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: Upward revision due to better than expected Q3 export volumes.</li>
+	<li><strong><em>Exports of services, world</em></strong>: No major revision.</li>
 </ul>
 <strong>Q1 2021</strong>
 <ul>
-	<li><strong><em>Total merchandise exports</em></strong>: Continued, but much slower, growth nowcast.</li>
-	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: Very slight growth nowcast.</li>
-	<li><strong><em>Exports of services, world</em></strong>: After anemic Q4 nowcasted growth, contraction potentially anticipated again in Q1 2021.</li>
+	<li><strong><em>Total merchandise exports</em></strong>: Continued, but much slower, growth nowcast. No major revisions from previous week.</li>
+	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: Very slight growth nowcast. Slight downward revision from last week due to negative numbers on South Korean merchandise exports.</li>
+	<li><strong><em>Exports of services, world</em></strong>: After anemic Q4 nowcasted growth, contraction potentially anticipated again in Q1 2021. No major revisions from previous week.</li>
 </ul>
 </p>
 """
