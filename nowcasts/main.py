@@ -14,19 +14,19 @@ import source.helper as helper
 # commentary
 commentary = """
 <p>
-<em><strong style="font-size:20px">05 January 2021</strong></em>
+<em><strong style="font-size:20px">12 January 2021</strong></em>
 <br><br>
 <strong>Q4 2020</strong>
 <ul>
-	<li><strong><em>Total merchandise exports</em></strong>: No major revisions.</li>
-	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: Slight upward revision on the 29th of December due to Japanese export volumes.</li>
+	<li><strong><em>Total merchandise exports</em></strong>: Slight downward revision due to French retail trade index.</li>
+	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: Upward revision due to South Korean merchandise exports and POlish manufacturing business activity confidence indicator.</li>
 	<li><strong><em>Exports of services, world</em></strong>: No major revision.</li>
 </ul>
 <strong>Q1 2021</strong>
 <ul>
-	<li><strong><em>Total merchandise exports</em></strong>: Continued, but much slower, growth nowcast. No major revisions from previous week.</li>
-	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: Very slight growth nowcast. Slight upward revision on 29th of December due to Japanese export volumes.</li>
-	<li><strong><em>Exports of services, world</em></strong>: After anemic Q4 nowcasted growth, contraction potentially anticipated again in Q1 2021. No major revisions from previous week.</li>
+	<li><strong><em>Total merchandise exports</em></strong>: Strong upward revision due to South Korean merchandise exports, Dutch manufacturing order books, and Polish manufacturing business activity confidence index.</li>
+	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: Positive release from German manufacturing export order books negated by French retail trade index. Little change in nowcast.</li>
+	<li><strong><em>Exports of services, world</em></strong>: Positive releases from a number of sources negated by french retail trade indices. Net, little revision, contraction still forecast.</li>
 </ul>
 </p>
 """
