@@ -14,19 +14,19 @@ import source.helper as helper
 # commentary
 commentary = """
 <p>
-<em><strong style="font-size:20px">12 January 2021</strong></em>
+<em><strong style="font-size:20px">19 January 2021</strong></em>
 <br><br>
 <strong>Q4 2020</strong>
 <ul>
-	<li><strong><em>Total merchandise exports</em></strong>: Slight downward revision due to French retail trade index.</li>
-	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: Upward revision due to South Korean merchandise exports and POlish manufacturing business activity confidence indicator.</li>
-	<li><strong><em>Exports of services, world</em></strong>: No major revision.</li>
+	<li><strong><em>Total merchandise exports</em></strong>: Strong upward revision in nowcast due to data revisions and the Dutch and Japanese business condifence indices.</li>
+	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: No major revision from last week.</li>
+	<li><strong><em>Exports of services, world</em></strong>: Slight upward revision due to EU industrial production index and Dutch business confidence index.</li>
 </ul>
 <strong>Q1 2021</strong>
 <ul>
-	<li><strong><em>Total merchandise exports</em></strong>: Strong upward revision due to South Korean merchandise exports, Dutch manufacturing order books, and Polish manufacturing business activity confidence index.</li>
-	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: Positive release from German manufacturing export order books negated by French retail trade index. Little change in nowcast.</li>
-	<li><strong><em>Exports of services, world</em></strong>: Positive releases from a number of sources negated by french retail trade indices. Net, little revision, contraction still forecast.</li>
+	<li><strong><em>Total merchandise exports</em></strong>: Strong upward revision due to Dutch and Japanese business confidence indices as well as data revisions.</li>
+	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: No major revisions this week after strong upward revision last week.</li>
+	<li><strong><em>Exports of services, world</em></strong>: Strong upward revision due to Dutch business confidence index and data revisions. Much weaker contraction now forecast.</li>
 </ul>
 </p>
 """
