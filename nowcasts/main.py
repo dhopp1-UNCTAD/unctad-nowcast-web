@@ -18,15 +18,15 @@ commentary = """
 <br><br>
 <strong>Q4 2020</strong>
 <ul>
-	<li><strong><em>Total merchandise exports</em></strong>: Strong upward revision in nowcast due to data revisions and the Dutch and Japanese business condifence indices.</li>
-	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: No major revision from last week.</li>
-	<li><strong><em>Exports of services, world</em></strong>: Slight upward revision due to EU industrial production index and Dutch business confidence index.</li>
+	<li><strong><em>Total merchandise exports</em></strong>: No major revisions from last week.</li>
+	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: Slight downward revision due mainly to emerging Asia export volumes and US retail trade index.</li>
+	<li><strong><em>Exports of services, world</em></strong>: No major revisions from last week.</li>
 </ul>
 <strong>Q1 2021</strong>
 <ul>
-	<li><strong><em>Total merchandise exports</em></strong>: Strong upward revision due to Dutch and Japanese business confidence indices as well as data revisions.</li>
-	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: No major revisions this week after strong upward revision last week.</li>
-	<li><strong><em>Exports of services, world</em></strong>: Strong upward revision due to Dutch business confidence index and data revisions. Much weaker contraction now forecast.</li>
+	<li><strong><em>Total merchandise exports</em></strong>: No major revisions from last week.</li>
+	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: Downward revision due to a number of factors, but primariliy disappointing Asian export figures..</li>
+	<li><strong><em>Exports of services, world</em></strong>: Slight upward revision due to positive export numbers from the UK and EU. Contraction no longer forecast.</li>
 </ul>
 </p>
 """
