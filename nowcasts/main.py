@@ -14,19 +14,19 @@ import source.helper as helper
 # commentary
 commentary = """
 <p>
-<em><strong style="font-size:20px">19 January 2021</strong></em>
+<em><strong style="font-size:20px">02 February 2021</strong></em>
 <br><br>
 <strong>Q4 2020</strong>
 <ul>
 	<li><strong><em>Total merchandise exports</em></strong>: No major revisions from last week.</li>
-	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: Slight downward revision due mainly to emerging Asia export volumes and US retail trade index.</li>
-	<li><strong><em>Exports of services, world</em></strong>: No major revisions from last week.</li>
+	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: No major revisions from last week..</li>
+	<li><strong><em>Exports of services, world</em></strong>: Significant downward revision due to poorer than expected Q3 numbers for global services exports as well as revisions.</li>
 </ul>
 <strong>Q1 2021</strong>
 <ul>
-	<li><strong><em>Total merchandise exports</em></strong>: No major revisions from last week.</li>
-	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: Downward revision due to a number of factors, but primariliy disappointing Asian export figures..</li>
-	<li><strong><em>Exports of services, world</em></strong>: Slight upward revision due to positive export numbers from the UK and EU. Contraction no longer forecast.</li>
+	<li><strong><em>Total merchandise exports</em></strong>: Slight upward revision due to French retail trade index numbers.</li>
+	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: Poor container throughput numbers balanced by Dutch manufacturing order books.</li>
+	<li><strong><em>Exports of services, world</em></strong>: Downward revision due to Q3 global services exports numbers, however counterbalanced by positive retail trade releases from Spain and France.</li>
 </ul>
 </p>
 """
