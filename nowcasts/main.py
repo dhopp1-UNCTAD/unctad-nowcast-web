@@ -24,9 +24,9 @@ commentary = """
 </ul>
 <strong>Q1 2021</strong>
 <ul>
-	<li><strong><em>Total merchandise exports</em></strong>: No major revision from last week.</li>
-	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: Slight upward revision due to Japanese merchandise exports.</li>
-	<li><strong><em>Exports of services, world</em></strong>: No major revision from last week.</li>
+	<li><strong><em>Total merchandise exports</em></strong>: Slight downwards revision due to US goods and services exports.</li>
+	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: Slight downward revision due to many indicators.</li>
+	<li><strong><em>Exports of services, world</em></strong>: Slight upward revision due to small impacts of many indicators.</li>
 </ul>
 </p>
 """
