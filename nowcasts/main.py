@@ -14,7 +14,7 @@ import source.helper as helper
 # commentary
 commentary = """
 <p>
-<em><strong style="font-size:20px">23 February 2021</strong></em>
+<em><strong style="font-size:20px">09 March 2021</strong></em>
 <br><br>
 <strong>Q4 2020</strong>
 <ul>
@@ -24,9 +24,9 @@ commentary = """
 </ul>
 <strong>Q1 2021</strong>
 <ul>
-	<li><strong><em>Total merchandise exports</em></strong>: Slight downwards revision due to US goods and services exports.</li>
-	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: Slight downward revision due to many indicators.</li>
-	<li><strong><em>Exports of services, world</em></strong>: Slight upward revision due to small impacts of many indicators.</li>
+	<li><strong><em>Total merchandise exports</em></strong>: Second straight week of downward revision due to data revisions and the Dutch business confidence index.</li>
+	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: Downward revision due to exports data from Japan and South Korea.</li>
+	<li><strong><em>Exports of services, world</em></strong>: Slight Downward revision due to data revisions and the Dutch business confidence index, turning the nowcast negative for the first time since early February.</li>
 </ul>
 </p>
 """
