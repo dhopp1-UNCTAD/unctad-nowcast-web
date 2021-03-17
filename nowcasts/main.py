@@ -14,19 +14,19 @@ import source.helper as helper
 # commentary
 commentary = """
 <p>
-<em><strong style="font-size:20px">09 March 2021</strong></em>
+<em><strong style="font-size:20px">16 March 2021</strong></em>
 <br><br>
-<strong>Q4 2020</strong>
+<strong style="font-size:15px">Q1 2021</strong>
 <ul>
-	<li><strong><em>Total merchandise exports</em></strong>: No major revisions from last week.</li>
-	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: No major revisions from last week.</li>
-	<li><strong><em>Exports of services, world</em></strong>: No major revision from last week.</li>
+	<li><strong><em>Total merchandise exports</em></strong>: Commentary.</li>
+	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: Commentary.</li>
+	<li><strong><em>Exports of services, world</em></strong>: Commentary.</li>
 </ul>
-<strong>Q1 2021</strong>
+<strong style="font-size:15px">Q2 2021</strong>
 <ul>
-	<li><strong><em>Total merchandise exports</em></strong>: Second straight week of downward revision due to data revisions and the Dutch business confidence index.</li>
-	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: Downward revision due to exports data from Japan and South Korea.</li>
-	<li><strong><em>Exports of services, world</em></strong>: Slight Downward revision due to data revisions and the Dutch business confidence index, turning the nowcast negative for the first time since early February.</li>
+	<li><strong><em>Total merchandise exports</em></strong>: Commentary.</li>
+	<li><strong><em>Export volumes, world (UNCTAD)</em></strong>: Commentary.</li>
+	<li><strong><em>Exports of services, world</em></strong>: Commentary.</li>
 </ul>
 </p>
 """
