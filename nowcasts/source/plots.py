@@ -7,7 +7,7 @@ import numpy as np
 from bokeh.plotting import figure
 from bokeh.models import Legend, HoverTool, CustomJS
 
-def gen_plot(data, actuals, target, target_name, target_period, palette):
+def gen_plot(data, actuals, lstm, target, target_name, target_period, palette):
 	# title sizing
 	title_text_font_size = "14pt"
 	axis_text_font_size = "11pt"
@@ -23,6 +23,12 @@ def gen_plot(data, actuals, target, target_name, target_period, palette):
 	actual_line = line_data.loc[:,["date_forecast"]]
 	actual_line["actual"] = actual_data
 	
+    # for the lstm line
+	lstm_mask = (lstm.target == target) & (lstm.target_period == target_period) & (lstm.pred_date <= np.max(line_data.date_forecast)) & (lstm.pred_date >= np.min(line_data.date_forecast))
+	lstm_data = lstm.loc[lstm_mask, ["pred_date", "prediction"]].reset_index(drop=True)
+	lstm_data.columns = ["date_forecast", "lstm"]
+	lstm_data.lstm = lstm_data.lstm * 100
+    
 	# for the stacked bars
 	stack = data.loc[
 		(data.target == target) & 
@@ -71,6 +77,7 @@ def gen_plot(data, actuals, target, target_name, target_period, palette):
 	)
 	p.line("date_forecast", "value", source=line_data, line_width=1.5, color="black", name="forecast")
 	p.line("date_forecast", "actual", source=actual_line, line_width=1.5, color="black", line_dash="dotted", name="actual")
+	p.line("date_forecast", "lstm", source=lstm_data, line_width=1.5, color="green", name="lstm")
 	p.title.text_font_size = title_text_font_size # title
 	p.xaxis.major_label_text_font_size = axis_text_font_size # axis ticks
 	p.yaxis.major_label_text_font_size = axis_text_font_size # axis ticks
@@ -94,7 +101,7 @@ def gen_plot(data, actuals, target, target_name, target_period, palette):
         HoverTool(
             tooltips=[
                 ("Date of nowcast", "@date_forecast_string"),
-                ("Target period nowcast", "@value{0.00}%")
+                ("DFM nowcast", "@value{0.00}%")
             ],
             names=["forecast"],
             mode="mouse"
@@ -105,6 +112,14 @@ def gen_plot(data, actuals, target, target_name, target_period, palette):
                 ("Actual value", "@actual{0.00}%")
             ],
             names=["actual"],
+            mode="mouse"
+        ),
+        HoverTool(
+            tooltips=[
+                ("Target period", target_period),
+                ("LSTM nowcast", "@lstm{0.00}%")
+            ],
+            names=["lstm"],
             mode="mouse"
         ),
 		HoverTool(
@@ -122,7 +137,8 @@ def gen_plot(data, actuals, target, target_name, target_period, palette):
 	# text for display
 	pred_text = f"""
 <p><strong>Date of latest nowcast made:</strong> {str(line_data.date_forecast.values[-1])[:10]}</p>
-<p><strong>Latest nowcast:</strong> {round(line_data.value.values[-1], 2)}%</p>
+<p><strong>Latest DFM nowcast (black line):</strong> {round(line_data.value.values[-1], 2)}%</p>
+<p><strong>Latest LSTM nowcast (green line):</strong> {round(lstm_data.lstm.values[-1], 2)}%</p>
 	"""
 	
 	return [p, pred_text]
