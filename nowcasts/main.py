@@ -12,7 +12,15 @@ import source.layouts as layouts
 import source.helper as helper
 
 # commentary
-commentary = ""
+commentary = """
+<p style="font-size:15px">
+Forecasts from both <a href="https://unctad.org/webflyer/estimation-coincident-indicator-international-trade-and-global-economic-activity">dynamic factor models (DFM)</a> and <a href="https://unctad.org/webflyer/economic-nowcasting-long-short-term-memory-artificial-neural-networks-lstm">long short-term memory neural networks (LSTM)</a> available. 
+<br>
+Change which is used for the "News Plot" using the "Methodology" toggle. 
+<br>
+Compare both methods' forecasts by going to the "Comparison Plot" tab.
+<p>
+"""
 # commentary = """
 # <p>
 # <em><strong style="font-size:20px">6 April 2021</strong></em>
@@ -54,17 +62,19 @@ actuals = pd.read_csv("nowcasts/data/actuals.csv")
 target = target_options[0]
 target_period = helper.convert_quarter(target_period_options[-1], quarter_to_date=True)
 p, pred_text = plots.gen_plot(data, actuals, helper.get_full_var_name(catalog, target, False), target, target_period, palette.max_palette)
+comp = plots.gen_comparison_plot(dfm, lstm, actuals, helper.get_full_var_name(catalog, target, False), target, target_period, palette)
 target_init = target_options[0]
 target_period_init = target_period_options[-1]
 
 # dropdowns
 def update_plot_target(attr, old, new):
-	global p, layout, target, target_dropdown, target_period_dropdown, model_dropdown
+	global p, comp, layout, target, target_dropdown, target_period_dropdown, model_dropdown
 
 	target = new
 	p, pred_text = plots.gen_plot(data, actuals, helper.get_full_var_name(catalog, new, False), new, target_period, palette.max_palette)
+	comp = plots.gen_comparison_plot(dfm, lstm, actuals, helper.get_full_var_name(catalog, new, False), new, target_period, palette)
 	curdoc().remove_root(layout)
-	layout = layouts.gen_layout(p, catalog, model_dropdown, target_dropdown, target_period_dropdown, pred_text, commentary)
+	layout = layouts.gen_layout(p, comp, catalog, model_dropdown, target_dropdown, target_period_dropdown, pred_text, commentary)
 	curdoc().add_root(layout)
 
 target_dropdown = Select(
@@ -75,11 +85,12 @@ target_dropdown = Select(
 target_dropdown.on_change("value", update_plot_target)
 	
 def update_plot_target_period(attr, old, new):
-	global p, layout, target, target_period, target_dropdown, target_period_dropdown, model_dropdown
+	global p, comp, layout, target, target_period, target_dropdown, target_period_dropdown, model_dropdown
 	target_period = helper.convert_quarter(new, quarter_to_date=True)
 	p, pred_text = plots.gen_plot(data, actuals, helper.get_full_var_name(catalog, target, False), target, helper.convert_quarter(new, quarter_to_date=True), palette.max_palette)
+	comp = plots.gen_comparison_plot(dfm, lstm, actuals, helper.get_full_var_name(catalog, target, False), target, helper.convert_quarter(new, quarter_to_date=True), palette)
 	curdoc().remove_root(layout)
-	layout = layouts.gen_layout(p, catalog, model_dropdown, target_dropdown, target_period_dropdown, pred_text, commentary)
+	layout = layouts.gen_layout(p, comp, catalog, model_dropdown, target_dropdown, target_period_dropdown, pred_text, commentary)
 	curdoc().add_root(layout)
 	
 target_period_dropdown = Select(
@@ -90,7 +101,7 @@ target_period_dropdown = Select(
 target_period_dropdown.on_change("value", update_plot_target_period)
 
 def update_model(attr, old, new):
-	global p, layout, target, target_period, target_dropdown, target_period_dropdown, model_dropdown, data
+	global p, comp, layout, target, target_period, target_dropdown, target_period_dropdown, model_dropdown, data
 	
 	# updating data source
 	if new == "DFM":
@@ -100,7 +111,7 @@ def update_model(attr, old, new):
 
 	p, pred_text = plots.gen_plot(data, actuals, helper.get_full_var_name(catalog, target, False), target, target_period, palette.max_palette)
 	curdoc().remove_root(layout)
-	layout = layouts.gen_layout(p, catalog, model_dropdown, target_dropdown, target_period_dropdown, pred_text, commentary)
+	layout = layouts.gen_layout(p, comp, catalog, model_dropdown, target_dropdown, target_period_dropdown, pred_text, commentary)
 	curdoc().add_root(layout)
 	
 model_dropdown = Select(
@@ -111,6 +122,6 @@ model_dropdown = Select(
 model_dropdown.on_change("value", update_model)
 
 # final layout
-layout = layouts.gen_layout(p, catalog, model_dropdown, target_dropdown, target_period_dropdown, pred_text, commentary)
+layout = layouts.gen_layout(p, comp, catalog, model_dropdown, target_dropdown, target_period_dropdown, pred_text, commentary)
 curdoc().add_root(layout)
 curdoc().title = "UNCTAD Nowcasts"

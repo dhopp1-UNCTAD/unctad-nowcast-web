@@ -126,3 +126,83 @@ def gen_plot(data, actuals, target, target_name, target_period, palette):
 	"""
 	
 	return [p, pred_text]
+
+
+def gen_comparison_plot(dfm, lstm, actuals, target, target_name, target_period, palette):
+	# title sizing
+	title_text_font_size = "14pt"
+	axis_text_font_size = "11pt"
+	axis_label_font_size = "14pt"
+	
+	# for the dfm line
+	mask = (dfm.series == "forecast") & (dfm.target == target) & (dfm.target_period == target_period)
+	dfm_data = dfm.loc[mask, ["date_forecast", "value"]].reset_index(drop=True)
+	dfm_data["date_forecast_string"] = dfm_data.date_forecast.apply(lambda x: str(x)[:10])
+
+	# for the lstm line
+	mask = (lstm.series == "forecast") & (lstm.target == target) & (lstm.target_period == target_period) & (lstm.date_forecast <= np.max(dfm_data.date_forecast)) & (lstm.date_forecast >= np.min(dfm_data.date_forecast))
+	lstm_data = lstm.loc[mask, ["date_forecast", "value"]].reset_index(drop=True)
+	lstm_data["date_forecast_string"] = lstm_data.date_forecast.apply(lambda x: str(x)[:10])
+	
+	# for the actuals line
+	actual_data = actuals.loc[actuals.date == target_period,target].values[0] * 100
+	actual_line = dfm_data.loc[:,["date_forecast"]]
+	actual_line["actual"] = actual_data
+
+	# for 0 line
+	mask = (lstm.series == "forecast") & (lstm.target == target) & (lstm.target_period == target_period) & (lstm.date_forecast <= np.max(dfm_data.date_forecast)) & (lstm.date_forecast >= np.min(dfm_data.date_forecast))
+	zero_data = lstm.loc[mask, ["date_forecast", "value"]].reset_index(drop=True)
+	zero_data.value = 0
+	zero_data["date_forecast_string"] = zero_data.date_forecast.apply(lambda x: str(x)[:10])
+    	
+	# plot
+	p = figure(
+			title=f"{target_name}: {target_period[:4]} Q{int(int(target_period[5:7])/3)} nowcast quarter-over-quarter growth",
+			x_axis_type="datetime", 
+			x_axis_label="Date nowcast made",
+			y_axis_label="Percent",
+			plot_width=1200, 
+			plot_height=600
+	)
+	p.add_layout(Legend(), 'right')
+	p.line("date_forecast", "value", source=dfm_data, line_width=1.5, color="blue", name="DFM", legend_label="DFM")
+	p.line("date_forecast", "value", source=lstm_data, line_width=1.5, color="red", name="LSTM", legend_label="LSTM")
+	p.line("date_forecast", "actual", source=actual_line, line_width=1.5, color="black", line_dash="dotted", name="actual", legend_label = "Actual value")
+	p.line("date_forecast", "value", source=zero_data, line_width=1.5, color="black", name="zero")
+	
+	p.title.text_font_size = title_text_font_size # title
+	p.xaxis.major_label_text_font_size = axis_text_font_size # axis ticks
+	p.yaxis.major_label_text_font_size = axis_text_font_size # axis ticks
+	p.xaxis.axis_label_text_font_size = axis_label_font_size # axis label
+	p.yaxis.axis_label_text_font_size = axis_label_font_size # axis label
+	
+	# tool tips
+	# for stacked bar chart
+	p.add_tools(
+        HoverTool(
+            tooltips=[
+                ("Date of nowcast", "@date_forecast_string"),
+                ("DFM nowcast", "@value{0.00}%")
+            ],
+            names=["DFM"],
+            mode="mouse"
+        ),
+        HoverTool(
+            tooltips=[
+                ("Date of nowcast", "@date_forecast_string"),
+                ("LSTM nowcast", "@value{0.00}%")
+            ],
+            names=["LSTM"],
+            mode="mouse"
+        ),
+		HoverTool(
+            tooltips=[
+                ("Target period", target_period),
+                ("Actual value", "@actual{0.00}%")
+            ],
+            names=["actual"],
+            mode="mouse"
+        )
+	)
+	
+	return p
