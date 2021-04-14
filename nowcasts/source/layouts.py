@@ -2,7 +2,7 @@ from bokeh.layouts import column, row, Spacer
 from bokeh.models.widgets import Tabs, Panel, Div, DataTable, TableColumn
 from bokeh.plotting import ColumnDataSource
 
-def gen_layout(p, catalog, target_dropdown, target_period_dropdown, pred_text, commentary):
+def gen_layout(p, catalog, model_dropdown, target_dropdown, target_period_dropdown, pred_text, commentary):
 	# tabs
 	plot_tab = Panel(child=row(p), title="Nowcasts")
 	
@@ -67,6 +67,8 @@ UNCTAD’s global merchandise trade nowcasts are real-time estimates of current 
 	# final layout
 	layout = column(
 		Div(text=commentary),
+		Spacer(height=15),
+		row(column(model_dropdown)),
 		Spacer(height=15),
 		row(column(target_dropdown), column(target_period_dropdown)),
 		Spacer(height=15),
