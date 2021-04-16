@@ -2,10 +2,11 @@ from bokeh.layouts import column, row, Spacer
 from bokeh.models.widgets import Tabs, Panel, Div, DataTable, TableColumn
 from bokeh.plotting import ColumnDataSource
 
-def gen_layout(p, comp, catalog, model_dropdown, target_dropdown, target_period_dropdown, pred_text, commentary):
+def gen_layout(p, comp, gdp_plot, catalog, model_dropdown, target_dropdown, target_period_dropdown, target_period_gdp_dropdown, pred_text, commentary):
 	# tabs
 	plot_tab = Panel(child=row(p), title="News Plot")
 	comparison_tab = Panel(child=row(comp), title="Comparison Plot")
+	gdp_tab = Panel(child=row(gdp_plot), title="GDP News Plot")
 	
 	# metadata tab
 	cat = catalog.loc[(catalog.x_world > 0) | (catalog.x_vol_world2 > 0) | (catalog.x_servs_world > 0),:].reset_index(drop=True)
@@ -63,13 +64,13 @@ UNCTAD’s global merchandise trade nowcasts are real-time estimates of current 
 	    child=column(notes), title="Methodology"
 	)
 	
-	tabs = Tabs(tabs=[plot_tab, comparison_tab, metadata_tab, notes_tab])
+	tabs = Tabs(tabs=[plot_tab, comparison_tab, metadata_tab, notes_tab, gdp_tab])
 	
 	# final layout
 	layout = column(
 		Div(text=commentary),
 		Spacer(height=15),
-		row(column(model_dropdown)),
+		row(column(model_dropdown), column(target_period_gdp_dropdown)),
 		Spacer(height=15),
 		row(column(target_dropdown), column(target_period_dropdown)),
 		Spacer(height=15),
