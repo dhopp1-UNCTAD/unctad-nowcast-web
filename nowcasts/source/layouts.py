@@ -2,7 +2,7 @@ from bokeh.layouts import column, row, Spacer
 from bokeh.models.widgets import Tabs, Panel, Div, DataTable, TableColumn
 from bokeh.plotting import ColumnDataSource
 
-def gen_layout(p, comp, gdp_plot, catalog, model_dropdown, target_dropdown, target_period_dropdown, target_period_gdp_dropdown, pred_text, commentary):
+def gen_layout(p, comp, gdp_plot, catalog, model_dropdown, target_dropdown, target_period_dropdown, target_period_gdp_dropdown, pred_text, commentary, active_tab):
 	# tabs
 	plot_tab = Panel(child=row(p), title="News Plot")
 	comparison_tab = Panel(child=row(comp), title="Comparison Plot")
@@ -68,6 +68,7 @@ UNCTAD’s global merchandise trade nowcasts are real-time estimates of current 
 	)
 	
 	tabs = Tabs(tabs=[plot_tab, comparison_tab, metadata_tab, notes_tab, gdp_tab])
+	tabs.active = active_tab
 	
 	# final layout
 	layout = column(
@@ -81,4 +82,4 @@ UNCTAD’s global merchandise trade nowcasts are real-time estimates of current 
 		Spacer(height=15),
 		row(tabs)
 	)
-	return layout
+	return [layout, tabs]

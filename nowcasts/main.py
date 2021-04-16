@@ -19,6 +19,8 @@ Forecasts from both <a href="https://unctad.org/webflyer/estimation-coincident-i
 Change which is used for the "News Plot" using the "Methodology" toggle. 
 <br>
 Compare both methods' forecasts by going to the "Comparison Plot" tab.
+<br>
+GDP nowcast is also available on the "GDP News Plot" tab, with its own year toggle in the tab (experimental).
 <p>
 """
 # commentary = """
@@ -70,16 +72,17 @@ comp = plots.gen_comparison_plot(dfm, lstm, actuals, helper.get_full_var_name(ca
 target_init = target_options[0]
 target_period_init = target_period_options[-1]
 gdp_plot = plots.gen_gdp_plot(gdp, actuals, "2020", palette.max_palette)
+active_tab = 0
 
 # dropdowns
 def update_plot_target(attr, old, new):
-	global p, comp, gdp_plot, layout, target_period_gdp, target, target_dropdown, target_period_dropdown, model_dropdown, target_period_gdp_dropdown
+	global p, comp, gdp_plot, layout, target_period_gdp, target, target_dropdown, target_period_dropdown, model_dropdown, target_period_gdp_dropdown, tabs
 
 	target = new
 	p, pred_text = plots.gen_plot(data, actuals, helper.get_full_var_name(catalog, new, False), new, target_period, palette.max_palette)
 	comp = plots.gen_comparison_plot(dfm, lstm, actuals, helper.get_full_var_name(catalog, new, False), new, target_period, palette)
 	curdoc().remove_root(layout)
-	layout = layouts.gen_layout(p, comp, gdp_plot, catalog, model_dropdown, target_dropdown, target_period_dropdown, target_period_gdp_dropdown, pred_text, commentary)
+	layout, tabs = layouts.gen_layout(p, comp, gdp_plot, catalog, model_dropdown, target_dropdown, target_period_dropdown, target_period_gdp_dropdown, pred_text, commentary, tabs.active)
 	curdoc().add_root(layout)
 
 target_dropdown = Select(
@@ -90,12 +93,12 @@ target_dropdown = Select(
 target_dropdown.on_change("value", update_plot_target)
 	
 def update_plot_target_period(attr, old, new):
-	global p, comp, gdp_plot, layout, target, target_period, target_period_gdp, target_dropdown, target_period_dropdown, model_dropdown, target_period_gdp_dropdown
+	global p, comp, gdp_plot, layout, target, target_period, target_period_gdp, target_dropdown, target_period_dropdown, model_dropdown, target_period_gdp_dropdown, tabs
 	target_period = helper.convert_quarter(new, quarter_to_date=True)
 	p, pred_text = plots.gen_plot(data, actuals, helper.get_full_var_name(catalog, target, False), target, helper.convert_quarter(new, quarter_to_date=True), palette.max_palette)
 	comp = plots.gen_comparison_plot(dfm, lstm, actuals, helper.get_full_var_name(catalog, target, False), target, helper.convert_quarter(new, quarter_to_date=True), palette)
 	curdoc().remove_root(layout)
-	layout = layouts.gen_layout(p, comp, gdp_plot, catalog, model_dropdown, target_dropdown, target_period_dropdown, target_period_gdp_dropdown, pred_text, commentary)
+	layout, tabs = layouts.gen_layout(p, comp, gdp_plot, catalog, model_dropdown, target_dropdown, target_period_dropdown, target_period_gdp_dropdown, pred_text, commentary, tabs.active)
 	curdoc().add_root(layout)
 	
 target_period_dropdown = Select(
@@ -106,7 +109,7 @@ target_period_dropdown = Select(
 target_period_dropdown.on_change("value", update_plot_target_period)
 
 def update_model(attr, old, new):
-	global p, comp, gdp_plot, layout, target, target_period, target_period_gdp, target_dropdown, target_period_dropdown, model_dropdown, data, target_period_gdp_dropdown
+	global p, comp, gdp_plot, layout, target, target_period, target_period_gdp, target_dropdown, target_period_dropdown, model_dropdown, data, target_period_gdp_dropdown, tabs
 	
 	# updating data source
 	if new == "DFM":
@@ -116,7 +119,7 @@ def update_model(attr, old, new):
 
 	p, pred_text = plots.gen_plot(data, actuals, helper.get_full_var_name(catalog, target, False), target, target_period, palette.max_palette)
 	curdoc().remove_root(layout)
-	layout = layouts.gen_layout(p, comp, gdp_plot, catalog, model_dropdown, target_dropdown, target_period_dropdown, target_period_gdp_dropdown, pred_text, commentary)
+	layout, tabs = layouts.gen_layout(p, comp, gdp_plot, catalog, model_dropdown, target_dropdown, target_period_dropdown, target_period_gdp_dropdown, pred_text, commentary, tabs.active)
 	curdoc().add_root(layout)
 	
 model_dropdown = Select(
@@ -128,11 +131,11 @@ model_dropdown.on_change("value", update_model)
 
 # GDP
 def update_plot_target_period_gdp(attr, old, new):
-	global p, comp, gdp_plot, layout, target, target_period, target_period_gdp, target_dropdown, target_period_gdp_dropdown, model_dropdown, target_period_gdp_dropdown
+	global p, comp, gdp_plot, layout, target, target_period, target_period_gdp, target_dropdown, target_period_gdp_dropdown, model_dropdown, target_period_gdp_dropdown, tabs
 	target_period_gdp = new
 	gdp_plot = plots.gen_gdp_plot(gdp, actuals, target_period_gdp, palette.max_palette)
 	curdoc().remove_root(layout)
-	layout = layouts.gen_layout(p, comp, gdp_plot, catalog, model_dropdown, target_dropdown, target_period_dropdown, target_period_gdp_dropdown, pred_text, commentary)
+	layout, tabs = layouts.gen_layout(p, comp, gdp_plot, catalog, model_dropdown, target_dropdown, target_period_dropdown, target_period_gdp_dropdown, pred_text, commentary, tabs.active)
 	curdoc().add_root(layout)
 	
 target_period_gdp_dropdown = Select(
@@ -143,6 +146,6 @@ target_period_gdp_dropdown = Select(
 target_period_gdp_dropdown.on_change("value", update_plot_target_period_gdp)
 
 # final layout
-layout = layouts.gen_layout(p, comp, gdp_plot, catalog, model_dropdown, target_dropdown, target_period_dropdown, target_period_gdp_dropdown, pred_text, commentary)
+layout, tabs = layouts.gen_layout(p, comp, gdp_plot, catalog, model_dropdown, target_dropdown, target_period_dropdown, target_period_gdp_dropdown, pred_text, commentary, active_tab)
 curdoc().add_root(layout)
 curdoc().title = "UNCTAD Nowcasts"
